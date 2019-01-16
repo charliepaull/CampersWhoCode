@@ -11,6 +11,7 @@ var app = express();
 //==========================
 app.use(express.static("public"));
 
+
 // Parses body in json format
 //==========================
 app.use(express.urlencoded({ extended: true }));
@@ -30,12 +31,15 @@ app.set("view engine", "handlebars");
 var bcRoute = require("./controller/bcController.js");
 var empRoute = require("./controller/employerController.js");
 
+
 // Ability to use two seperate routes
-app.use(bcRoute);
-app.use(empRoute);
+//===================================
+// app.use(bcRoute);
+// app.use(empRoute);
 
 
 // Sends user to homepage
+//==========================
 app.get("/", function(req, res) {
     res.render("index");
 });

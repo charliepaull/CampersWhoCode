@@ -1,15 +1,19 @@
+// Requirements
+//====================
 var mysql = require("mysql");
 
-// creating the connection for mysql
+// Creating the connection for mysql
+//==================================
 var connection = mysql.createConnection({
     host: "localhost",
     port: 1433,
     user: "root",
-    password: "",
-    database: camperswhocode
+    password: "4tigres",
+    database: "camperswhocode"
 }); 
 
-// make the connection to sql database
+// Make the connection to sql database
+//====================================
 connection.connect(function(err){
     if (err) {
         // error message for connection to sql if need
@@ -18,5 +22,6 @@ connection.connect(function(err){
     console.log("connected as ID: " + connection.threadId);
 });
 
-// export connection to bcController & employerController files
+// Export connection to bcController & employerController files
+//=============================================================
 module.exports = connection;

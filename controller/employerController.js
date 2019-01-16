@@ -19,8 +19,26 @@ router.get("/json", function(req, res) {
     })
 })
 
-router.post("/", function())
+router.post("/", function(req, res) {
+    jobs.createJob([
+        "job_title", "employer", "employer_picture", "job_type", "description",
+         "beg_price", "int_price", "adv_price", "emp_email", "emp_phone", "emp_linkedin", "emp_site"
+    ], [
+        
+    ])
+})
 
 
 
 module.exports = router;
+
+router.post("/api/cats", function(req, res) {
+    cat.create([
+      "name", "sleepy"
+    ], [
+      req.body.name, req.body.sleepy
+    ], function(result) {
+      // Send back the ID of the new quote
+      res.json({ id: result.insertId });
+    });
+  });

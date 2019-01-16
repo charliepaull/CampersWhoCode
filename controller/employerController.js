@@ -19,6 +19,7 @@ router.get("/json", function(req, res) {
     })
 })
 
+
 router.post("/", function(req, res) {
     jobs.createJob([
         "job_title", "employer", "employer_picture", "job_type", "description",
@@ -28,17 +29,4 @@ router.post("/", function(req, res) {
     ])
 })
 
-
-
 module.exports = router;
-
-router.post("/api/cats", function(req, res) {
-    cat.create([
-      "name", "sleepy"
-    ], [
-      req.body.name, req.body.sleepy
-    ], function(result) {
-      // Send back the ID of the new quote
-      res.json({ id: result.insertId });
-    });
-  });

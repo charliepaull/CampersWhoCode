@@ -28,21 +28,21 @@ app.set("view engine", "handlebars");
 
 // Sets up router
 //==========================
-var bcRoute = require("./controller/bcController.js");
-var empRoute = require("./controller/employerController.js");
+// var bcRoute = require("./controller/bcController.js");
+var empRoute = require("./routes/employerRoutes.js");
 
 
 // Ability to use two seperate routes
 //===================================
 // app.use(bcRoute);
-// app.use(empRoute);
+app.use(empRoute);
 
 
 // Sends user to homepage
 //==========================
-app.get("/", function(req, res) {
-    res.render("index");
-});
+// app.get("/", function(req, res) {
+//     res.render("index");
+// });
 
 
 // Start server

@@ -4,14 +4,16 @@ var mysql = require("mysql");
 
 // Creating the connection for mysql
 //==================================
+
+// If/Else Statement Only For JawsDB
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
   } else {
 var connection = mysql.createConnection({
     host: "localhost",
-    port: 1433,
+    port: 3306,
     user: "root",
-    password: "",
+    password: "4tigres",
     database: "camperswhocode"
 }); 
 }

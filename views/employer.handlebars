@@ -27,6 +27,44 @@
       </div>
         <!-- here will go a function that lets a user add an avatar component to the form -->
         <h2>Avatar Component to come</h2>
+        {
+        "steps":
+            "files": {
+                "robot": "/file/filter",
+                "accepts": [
+                    [
+                    "${file.mime}",
+                    "regex",
+                    "image"
+                    ]
+                ],
+        "error_on_decline": true
+        },
+
+        "medium": {
+            "use": ":original",
+            "robot": "/image/resize",
+            "width": 300,
+            "height": 200,
+            "resize_strategy": "fit"
+        },
+
+        "large": {
+            "use": ":original",
+            "robot": "/image/resize",
+            "width": 480,
+            "height": 320,
+            "resize_strategy": "fit"
+        },
+
+        "thumbnail": {
+            "use": ":original",
+            "robot": "/image/resize",
+            "width": 80,
+            "height": 80,
+            "resize_strategy": "crop"
+        },
+        }
 
       <div class="form-row">
         <div class="col-md-6">

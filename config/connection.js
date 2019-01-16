@@ -4,13 +4,17 @@ var mysql = require("mysql");
 
 // Creating the connection for mysql
 //==================================
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+  } else {
 var connection = mysql.createConnection({
     host: "localhost",
     port: 1433,
     user: "root",
-    password: "4tigres",
+    password: "",
     database: "camperswhocode"
 }); 
+}
 
 // Make the connection to sql database
 //====================================

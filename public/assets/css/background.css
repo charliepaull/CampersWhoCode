@@ -1,0 +1,185 @@
+body {
+  background-image: url(/assets/images/background-bitmap.png);
+  background-size: 100%;
+}
+
+.background {
+  width               : 1440px;
+  height              : 100vh;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0 auto;
+  background-color    : rgba(0, 0, 0, 0.82);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.background .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 130px;
+  height              : 100%;
+  width               : 1600px;
+  position            : static;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+.background .navbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 130px;
+  width               : 1600px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+.background .navbar .bar {
+  background-color    : rgba(255, 255, 255, 0.91);
+  top                 : 0px;
+  height              : 130px;
+  width               : 1600px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+.background .navbar .menubutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 43px;
+  width               : 70px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1313px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+.background .navbar .menubutton .menuicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 43px;
+  width               : 70px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+}
+.background .bootcampers {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : auto;
+  width               : 487px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+  font-size           : 70.0px;
+  color               : rgba(135, 198, 190, 1.0);
+  text-align          : left;
+  line-height         : 96.0px;
+}
+
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

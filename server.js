@@ -32,7 +32,6 @@ app.set("view engine", "handlebars");
 var empRoute = require("./controller/employerController.js");
 
 
-
 // Ability to use two seperate routes
 //===================================
 // app.use(bcRoute);

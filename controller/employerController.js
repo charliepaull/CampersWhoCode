@@ -8,7 +8,7 @@ var router = express.Router();
 //===========================
 router.get("/", function(req, res) {
     res.render("index");
-};
+});
     
 
 // form submission route
@@ -42,7 +42,6 @@ router.get("/jobs", function(req, res) {
 });
 
 
-
 router.post("/json", function(req, res) {
     // ORM function from bootcamper.js
     // will POST all fields submitted by employer
@@ -60,8 +59,7 @@ router.post("/json", function(req, res) {
     function(result){
         // redirects user after 'submit' button clicked
         res.redirect("/");
-    }
-    )
-})
+    });
+});
 
 module.exports = router;

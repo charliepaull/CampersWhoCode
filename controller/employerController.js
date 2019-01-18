@@ -4,6 +4,11 @@ var jobs = require("../models/bootcamper")
 
 var router = express.Router();
 
+// Sends User To Homepage
+//===========================
+router.get("/", function(req, res) {
+    res.render("index");
+};
     
 
 // form submission route
@@ -12,7 +17,7 @@ router.get("/form/submit", function(req, res) {
 })
 
 
-// database route after submitting form
+// selects all from database
 router.get("/json", function(req, res) {
     jobs.allJobs(function(err, data){
         if (err) return err;
@@ -22,7 +27,20 @@ router.get("/json", function(req, res) {
         }
         res.json(data);
     });
-})
+});
+
+//Send Route For Job Postings
+router.get("/jobs", function(req, res) {
+    jobs.allJobs(function(err, data){
+        if (err) return err;
+
+        var bcJobs = {
+            bcJobs: data
+        }
+        res.render("bootcampers", bcJobs);
+    });
+});
+
 
 
 router.post("/json", function(req, res) {

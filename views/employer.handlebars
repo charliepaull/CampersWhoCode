@@ -135,7 +135,7 @@
       <div class="form-row">
           <div class="col-md-3 mb-3">
             <label for="validationCustom10">Employer LinkedIn</label>
-            <input type="number" class="form-control" id="emp-linkedin" placeholder="if n/a, use linkedin.com" required>
+            <input type="text" class="form-control" id="emp-linkedin" placeholder="if n/a, use linkedin.com" required>
             <div class="valid-feedback">
               ✅
             </div>
@@ -145,7 +145,7 @@
       <div class="form-row">
           <div class="col-md-3 mb-3">
             <label for="validationCustom11">Employer Site</label>
-            <input type="number" class="form-control" id="emp-site" placeholder="if n/a, use google.com" required>
+            <input type="text" class="form-control" id="emp-site" placeholder="if n/a, use google.com" required>
             <div class="valid-feedback">
               ✅
             </div>
@@ -184,5 +184,42 @@
                 }, false);
             });
         }, false);
+
+          $(document).on("click", "btn-primary", function(){
+        // prevent form from submitting
+        event.preventDefault();
+
+        // new data object holding new job
+        var jobPost = {
+            // grabbing each value from form field
+            job_title: $("#job-title").val().trim(),
+            employer: $("#employer-index").val().trim(),
+            employer_picture: $("#avatar").val().trim(),
+            job_type: $("#job-type").val().trim(),
+            description: $("#description-index").val().trim(),
+            beg_price: $("#beg-price").val().trim(),
+            int_price: $("#int-price").val().trim(),
+            adv_price: $("#adv-price").val().trim(),
+            emp_email: $("#emp-email").val().trim(),
+            emp_phone: $("#emp-phone").val().trim(),
+            emp_linkedin: $("#emp-linkedin").val().trim(),
+            emp_site: $("#emp-site").val().trim(),
+        }
+
+        // AJAX call
+        // send post request
+        $.ajax("/json", {
+            method: "POST",
+            data: jobPost
+        // callback function
+        }).then(
+            function(){
+                // confirm POST occured
+                console.log("job posted to DB!");
+                // redirect employer
+                // location.redirect("/");
+            }
+        );
+    });
     })();
 </script>

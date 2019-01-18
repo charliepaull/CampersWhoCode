@@ -19,8 +19,10 @@ var jobs = {
         });
     },
     deleteJob: function(condition, cb) {
-        orm.delete("jobs", condition, functiokn(res) {
+        orm.delete("jobs", condition, function(res) {
             cb(res);
         });
     }
 };
+
+module.exports = jobs;

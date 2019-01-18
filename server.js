@@ -29,7 +29,8 @@ app.set("view engine", "handlebars");
 // Sets up router
 //==========================
 // var bcRoute = require("./controller/bcController.js");
-var empRoute = require("./routes/employerRoutes.js");
+var empRoute = require("./controller/employerController.js");
+
 
 
 // Ability to use two seperate routes

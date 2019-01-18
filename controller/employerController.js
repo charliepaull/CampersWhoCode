@@ -4,13 +4,11 @@ var jobs = require("../models/bootcamper")
 
 var router = express.Router();
 
-    
 
 // form submission route
 router.get("/form/submit", function(req, res) {
     res.render("employer");
 })
-
 
 // database route after submitting form
 router.get("/json", function(req, res) {
@@ -25,11 +23,22 @@ router.get("/json", function(req, res) {
 })
 
 
+//Send Route For Job Postings
+router.get("/jobs", function(req, res) {
+    var queryString = "SELECT * FROM jobs;"
+    connection.query(queryString, function (err, results) {
+        if (err) throw err;
+        res.render("bootcampers");
+    })
+});
+
 router.post("/json", function(req, res) {
     // ORM function from bootcamper.js
     // will POST all fields submitted by employer
     jobs.createJob([
-        "job_title", "employer", "employer_picture", "job_type", "description",
+        "job_title", "empl
+      
+      oyer", "employer_picture", "job_type", "description",
          "beg_price", "int_price", "adv_price", "emp_email", "emp_phone", 
          "emp_linkedin", "emp_site"
     ], [

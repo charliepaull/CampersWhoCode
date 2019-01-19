@@ -1,7 +1,6 @@
-var connection = require("../config/connection");
-var express = require("express");
-var jobs = require("../models/bootcamper")
+var jobs = require("../models/bootcamper.js");
 
+var express = require("express");
 var router = express.Router();
 
 // Sends User To Homepage
@@ -9,23 +8,16 @@ var router = express.Router();
 router.get("/", function(req, res) {
     res.render("index");
 });
-    
-
-// form submission route
-router.get("/form/submit", function(req, res) {
-    res.render("employer");
-})
 
 
 // selects all from database
 router.get("/json", function(req, res) {
-    jobs.allJobs(function(err, data){
-        if (err) return err;
-
-        var jobs = {
+    jobs.allJobs(function(data){
+        var showAllJobs = {
             jobs: data
         }
-        res.json(data);
+        console.log(showAllJobs);
+        res.json(showAllJobs);
     });
 });
 
@@ -63,3 +55,9 @@ router.post("/json", function(req, res) {
 });
 
 module.exports = router;
+
+"/"
+
+"seeJobs"
+
+"postJobs"

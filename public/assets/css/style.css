@@ -1,0 +1,18 @@
+
+.wrap {
+    width:1300px;
+    margin:0 auto;
+    display:block;
+}
+
+
+.card {
+    background-color: white;
+    opacity: 0.9;
+}
+
+
+
+#employer {
+    color: rgba(135, 198, 190, 1.0);
+}

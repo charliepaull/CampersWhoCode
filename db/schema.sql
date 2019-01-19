@@ -8,7 +8,7 @@ CREATE TABLE jobs (
     employer VARCHAR(255) NOT NULL,
     employer_picture VARCHAR(255) NULL,
     job_type VARCHAR(255) NULL,
-    descripton VARCHAR(2000) NOT NULL,
+    job_description VARCHAR(2000) NOT NULL,
     beg_price DECIMAL(5,2) NULL,
     int_price DECIMAL(5,2) NULL,
     adv_price DECIMAL(5,2) NULL,

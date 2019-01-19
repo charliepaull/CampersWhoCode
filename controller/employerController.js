@@ -15,7 +15,8 @@ router.get("/", function(req, res, next) {
 });
 
 
-// selects all from database
+// Shows "jobs" Table As JSON
+//==============================
 router.get("/json", function(req, res) {
     jobs.allJobs(function(data){
         var showAllJobs = {
@@ -27,17 +28,27 @@ router.get("/json", function(req, res) {
 });
 
 
-router.post("/json", function(req, res) {
+// Renders Job Submission Form
+//=============================
+router.get("/postJobs", function(req, res) {
+    res.render("employer");
+})
+
+
+
+// Post Route For Job Submission Form
+//====================================
+router.post("/postJobs", function(req, res) {
     // ORM function from bootcamper.js
     // will POST all fields submitted by employer
     jobs.createJob([
-        "job_title", "employer", "employer_picture", "job_type", "description",
+        "job_title", "employer", "employer_picture", "job_type", "job_description",
          "beg_price", "int_price", "adv_price", "emp_email", "emp_phone", 
          "emp_linkedin", "emp_site"
     ], [
         // data grabbed from each field in form
         req.body.job_title, req.body.employer, req.body.employer_picture, req.body.job_type,
-        req.body.description, req.body.beg_price, req.body.int_price, req.body.adv_price,
+        req.body.job_description, req.body.beg_price, req.body.int_price, req.body.adv_price,
         req.body.emp_email, req.body.emp_phone, req.body.emp_linkedin, req.body.emp_site
     ],
     // callback function - result not needed to be displed - will redirect user instead
@@ -51,7 +62,7 @@ router.post("/json", function(req, res) {
 
 //Send Route For Job Postings
 //==================================
-router.get("/jobs", function(req, res) {
+router.get("/seeJobs", function(req, res) {
     jobs.allJobs(function(data, err){
         if (err) return err;
         var bcJobs = {

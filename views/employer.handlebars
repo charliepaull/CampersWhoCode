@@ -6,7 +6,7 @@
 
 <h2>Please fill out the job form below for fellow Bootcampers to see!</h2>
 
-    <form class="needs-validation" novalidate>
+    <form class="formy-form" id="submit" novalidate>
       <div class="form-row">
         <div class="col-md-6">
           <label for="validationCustom01">Job Title</label>
@@ -41,7 +41,6 @@
                 ],
         "error_on_decline": true
         },
-
         "medium": {
             "use": ":original",
             "robot": "/image/resize",
@@ -49,7 +48,6 @@
             "height": 200,
             "resize_strategy": "fit"
         },
-
         "large": {
             "use": ":original",
             "robot": "/image/resize",
@@ -57,7 +55,6 @@
             "height": 320,
             "resize_strategy": "fit"
         },
-
         "thumbnail": {
             "use": ":original",
             "robot": "/image/resize",
@@ -167,8 +164,7 @@
     </form>
       
 <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function () {
+  /* (function () {
         'use strict';
         window.addEventListener('load', function () {
             // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -183,20 +179,19 @@
                     form.classList.add('was-validated');
                 }, false);
             });
-        }, false);
+        }, false); */
 
-          $(document).on("click", "btn-primary", function(){
+        $(".formy-form").on("submit", function(){
         // prevent form from submitting
         event.preventDefault();
-
         // new data object holding new job
         var jobPost = {
             // grabbing each value from form field
             job_title: $("#job-title").val().trim(),
             employer: $("#employer-index").val().trim(),
-            employer_picture: $("#avatar").val().trim(),
+            /* employer_picture: $("#avatar").val().trim(), */
             job_type: $("#job-type").val().trim(),
-            description: $("#description-index").val().trim(),
+            job_description: $("#description-index").val().trim(),
             beg_price: $("#beg-price").val().trim(),
             int_price: $("#int-price").val().trim(),
             adv_price: $("#adv-price").val().trim(),
@@ -205,21 +200,21 @@
             emp_linkedin: $("#emp-linkedin").val().trim(),
             emp_site: $("#emp-site").val().trim(),
         }
-
+        console.log(jobPost);
         // AJAX call
         // send post request
-        $.ajax("/json", {
+        $.ajax("/postJobs", {
             method: "POST",
             data: jobPost
         // callback function
         }).then(
-            function(){
+            function(res){
                 // confirm POST occured
                 console.log("job posted to DB!");
                 // redirect employer
-                // location.redirect("/");
+               res.redirect("/seeJobs");
             }
         );
     });
-    })();
+
 </script>

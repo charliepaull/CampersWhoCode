@@ -1,11 +1,16 @@
+//Routes
+//=======================
 var jobs = require("../models/bootcamper.js");
 
 var express = require("express");
 var router = express.Router();
 
+
+
+
 // Sends User To Homepage
 //===========================
-router.get("/", function(req, res) {
+router.get("/", function(req, res, next) {
     res.render("index");
 });
 
@@ -18,18 +23,6 @@ router.get("/json", function(req, res) {
         }
         console.log(showAllJobs);
         res.json(showAllJobs);
-    });
-});
-
-//Send Route For Job Postings
-router.get("/jobs", function(req, res) {
-    jobs.allJobs(function(err, data){
-        if (err) return err;
-
-        var bcJobs = {
-            bcJobs: data
-        }
-        res.render("bootcampers", bcJobs);
     });
 });
 
@@ -54,10 +47,19 @@ router.post("/json", function(req, res) {
     });
 });
 
+
+
+//Send Route For Job Postings
+//==================================
+router.get("/jobs", function(req, res) {
+    jobs.allJobs(function(data, err){
+        if (err) return err;
+        var bcJobs = {
+            jobs: data
+        }
+        res.render("bootcampers", bcJobs);
+        console.log(bcJobs);
+    });
+});
+
 module.exports = router;
-
-"/"
-
-"seeJobs"
-
-"postJobs"

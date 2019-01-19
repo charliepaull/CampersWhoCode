@@ -1,4 +1,4 @@
-var connection = require("../config/connection.js");
+//Routes
+//========================
 var express = require("express");
-
 var router = express.Router();

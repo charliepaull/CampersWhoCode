@@ -1,6 +1,6 @@
 
 <div class="card">
-    <h1> Job Title: {{job_title}} </h1> 
+    {{!-- <h1> Job Title: {{job_title}} </h1> 
     <h1 id="employer"> Employer: {{employer}} </h1>
     <img> {{employer_picture}} </img> 
     <h1> Job Type: {{job_type}} </h1>
@@ -11,9 +11,229 @@
     <h1> Employer Email: {{emp_email}} </h1>
     <h1> Employer Phone: {{emp_phone}} </h1>
     <h1> Employer LinkedIn: {{emp_linkedin}} </h1>
-    <h1> Employer Website: {{emp_site}} </h1> 
+    <h1> Employer Website: {{emp_site}} </h1>  --}}
 
     {{!-- <p id="employer">First lettering</p> --}}
+
+
+     <input id="anPageName" name="page" type="hidden" value="a2"/>
+        <div class="a2">
+            <div style="width: 1158px; height: 100%; position:relative; margin:auto;">
+                <div class="salarysection">
+                    <div class="image">
+                        <img anima-src="./assets/images/2-poltrona-gaia.png" class="poltronagaia" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="mask">
+                        </div>
+                    </div>
+                    <div class="a5000">
+                        ${{beg_price}}
+                    </div>
+                    <div class="a3000">
+                        ${{int_price}}
+                    </div>
+                    <div class="a1000">
+                        ${{adv_price}}
+                    </div>
+                    <div class="salary">
+                        Salary
+                    </div>
+                    <div class="advanced">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="advanced1">
+                            ADVANCED
+                        </div>
+                    </div>
+                    <div class="intermediate">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="intermediate1">
+                            INTERMEDIATE
+                        </div>
+                    </div>
+                    <div class="beginner">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="beginner1">
+                            BEGINNER
+                        </div>
+                    </div>
+                </div>
+                <img anima-src="./assets/images/2-bitmap.png" class="bitmap" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="logotype">
+                    {{employer}}
+                </div>
+                <div class="description">
+                    <div class="image">
+                        <div class="mask">
+                        </div>
+                        <img anima-src="./assets/images/2-poltrona-gaia 1.png" class="poltronagaia" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="hereliesthedescri">
+                        <h2>Job Description</h2> <br>
+                        {{job_description}}
+                    </div>
+                    <div class="jobtitle">
+                        {{job_title}}
+                    </div>
+                    <div class="morebutton">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="contactdetails">
+                            <span class="span1">CONTACT DETAIL</span><span class="span2">S</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactmodal">
+                    <div class="image">
+                        <div class="mask">
+                        </div>
+                        <img anima-src="./assets/images/2-poltrona-gaia 2.png" class="poltronagaia" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                    <div class="morebutton">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="linkedin">
+                            LINKED IN
+                        </div>
+                            <div id="linkedin">
+                                <a href="{{emp_linkedin}}">{{employer}}</a>
+                            </div>
+                    </div>
+                    <div class="morebutton1">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="weblink">
+                            WEBLINK
+                        </div>
+                            <div id="weblink">
+                                <a href="{{emp_site}}">LINK</a>  
+                            </div>
+                    </div>
+                    <div class="morebutton2">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="phone">
+                            PHONE
+                        </div>
+                            <div id="phone">
+                                {{emp_phone}}
+                            </div>
+                    </div>
+                    <div class="morebutton3">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="email">
+                            EMAIL
+                        </div>
+                            <div id="email">
+                                {{emp_email}}
+                            </div>
+                    </div>
+                    <div class="contactus">
+                        Contact Us
+                    </div>
+                    <div class="closebutton">
+                        <div class="boxmoredetails">
+                        </div>
+                        <div class="close">
+                            CLOSE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+
+
+               
+            // Anima JS
+            //_______________________
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+
+
+
+            //My JS
+            //_______________________
+      
+
+
+
+
+        </script>
 
     
 </div>

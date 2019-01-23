@@ -1,6 +1,13 @@
-/* ====================== */
-    /* Background CSS */
-/* ====================== */
+ /* ================================ */
+    /* ================================ */
+      /* ================================ */
+        /* ================================ */
+          /* Background CSS */
+        /* ================================ */
+      /* ================================ */
+    /* ================================ */
+  /* ================================ */
+
 .wrap {
     width:1300px;
     margin:0 auto;
@@ -49,7 +56,7 @@ body {
   div {
     -webkit-text-size-adjust: none;
   }
-  .background .bitmap {
+  .background .bitmap1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
     height              : 100%;
@@ -208,10 +215,15 @@ body {
         opacity: 1;
       }
   }
-
-/* ====================== */
-  /* Employer Card CSS */
-/* ====================== */
+   /* ================================ */
+    /* ================================ */
+      /* ================================ */
+        /* ================================ */
+          /* Employer Card CSS */
+        /* ================================ */
+      /* ================================ */
+    /* ================================ */
+  /* ================================ */
 
 
 #hidden {
@@ -492,7 +504,7 @@ body {
     letter-spacing      : 0.5px;
     line-height         : 18.0px;
   }
-  .a2 .bitmap {
+  .a2 .bitmap1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 143px;
     height              : 519px;
@@ -1017,6 +1029,1569 @@ body {
 }
 
 
+  /* .anima-animate-appear prefix for appear animations */
+  .anima-animate-appear {
+    opacity             : 0;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  }
+  .anima-animate-disappear {
+    opacity             : 1;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  }
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay  : 0;
+    animation-delay     : 0;
+  }
+  @-webkit-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-moz-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-o-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+
+  /* ================================ */
+    /* ================================ */
+      /* ================================ */
+        /* ================================ */
+  /* index.handlebars CSS */
+        /* ================================ */
+      /* ================================ */
+    /* ================================ */
+  /* ================================ */
+
+
+
+
+  body {
+    background-image: url(/assets/images/background-bitmap.png);
+    background-size: 100%;
+  }
+  
+  .background {
+    width               : 1440px;
+    /* height              : 100vh; */
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0 auto;
+  }
+  a {
+    text-decoration     : none;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .anima-full-width-a {
+    width               : 100%;
+  }
+  .anima-full-height-a {
+    height              : 100%;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .background .bitmap {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 130px;
+    height              : 100%;
+    width               : 1600px;
+    position            : static;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .bar {
+    background-color    : rgba(255, 255, 255, 0.91);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 44px;
+    height              : 43px;
+    width               : 70px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1313px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton .menuicon {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 43px;
+    width               : 70px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+    opacity             : 0.9;
+  }
+  .background .bootcampers {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 19px;
+    height              : auto;
+    width               : 487px;
+    position            : absolute;
+    margin              : 0;
+    left                : 51px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 70.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 96.0px;
+  }
+  
+  .anima-animate-appear {
+    opacity             : 0;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  }
+  .anima-animate-disappear {
+    opacity             : 1;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  }
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay  : 0;
+    animation-delay     : 0;
+  }
+  @-webkit-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-moz-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-o-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  
+  .background {
+    width               : 100%;
+    min-width           : 1600px;
+    /* height              : 100vh; */
+    min-height          : 3903px;
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0 auto;
+  }
+  a {
+    text-decoration     : none;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .anima-full-width-a {
+    width               : 100%;
+  }
+  .anima-full-height-a {
+    height              : 100%;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .background .rectangle {
+    background-color    : rgba(247, 249, 251, 1.0);
+    top                 : 565px;
+    height              : 832px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .rectangle1 {
+    background-color    : rgba(255, 255, 255, 1.0);
+    top                 : 1397px;
+    height              : 2510px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .navbar {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .navbar .bar {
+    background-color    : rgba(255, 255, 255, 0.91);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 44px;
+    height              : 43px;
+    width               : 70px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1470px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton .menuicon {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 43px;
+    width               : 70px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.9;
+  }
+  .background .camperswhocode {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 19px;
+    height              : auto;
+    width               : 843px;
+    position            : absolute;
+    margin              : 0;
+    left                : 51px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 70.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 96.0px;
+  }
+  .background .landing {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 145px;
+    height              : 844px;
+    width               : 1564px;
+    position            : absolute;
+    margin              : 0;
+    left                : 18px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .landing .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0%;
+    height              : 100%;
+    width               : 100%;
+    position            : absolute;
+    margin              : 0;
+    left                : 0%;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .landing .developersthatspea {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 458px;
+    height              : auto;
+    width               : 583px;
+    position            : absolute;
+    margin              : 0;
+    left                : 137px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 30.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 41.0px;
+  }
+  .background .landing .camperswhocode1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 488px;
+    height              : auto;
+    width               : 676px;
+    position            : absolute;
+    margin              : 0;
+    left                : 131px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 65.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 89.0px;
+  }
+  .background .landing .getstartedbutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 587px;
+    height              : 63px;
+    width               : 306px;
+    position            : absolute;
+    margin              : 0;
+    left                : 131px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .landing .searchprojects {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 596px;
+    height              : auto;
+    width               : 197px;
+    position            : absolute;
+    margin              : 0;
+    left                : 469px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 28.0px;
+    color               : rgba(73, 143, 225, 1.0);
+    text-align          : center;
+    line-height         : 38.0px;
+  }
+  .background .latestclient {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 961px;
+    height              : 378px;
+    width               : 1442px;
+    position            : absolute;
+    margin              : 0;
+    left                : 79px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .latestclient .whatwebuild {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 564px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 50.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    line-height         : 68.0px;
+  }
+  .background .latestclient .professionalwebsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 105px;
+    height              : auto;
+    width               : 349px;
+    position            : absolute;
+    margin              : 0;
+    left                : 387px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.8;
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 30.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 28.0px;
+  }
+  .background .latestclient .restaurantwebsite {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 105px;
+    height              : auto;
+    width               : 338px;
+    position            : absolute;
+    margin              : 0;
+    left                : 796px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.8;
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 30.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 28.0px;
+  }
+  .background .latestclient .line2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 376px;
+    height              : 2px;
+    width               : 1442px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .latestclient .button {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 222px;
+    height              : 40px;
+    width               : 138px;
+    position            : absolute;
+    margin              : 0;
+    left                : 652px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .latestclient .button .rectangle2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 40px;
+    box-sizing          : border-box;
+    width               : 138px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-style        : solid;
+    border-width        : 1px;
+    border-color        : rgba(0, 0, 0, 1.0);
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .latestclient .button .gallery {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 12px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 19px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 14.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    line-height         : 19.0px;
+  }
+  .background .latestclient .button .line3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 20px;
+    height              : 2px;
+    width               : 29px;
+    position            : absolute;
+    margin              : 0;
+    left                : 89px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .latestclient .button .rectangle11 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 19px;
+    height              : 5px;
+    width               : 5px;
+    position            : absolute;
+    margin              : 0;
+    left                : 115px;
+    -ms-transform       : rotate(-225deg); /* IE 9 */
+    -webkit-transform   : rotate(-225deg); /* Chrome, Safari, Opera */
+    transform           : rotate(-225deg);
+  }
+  .background .weareexp {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2699px;
+    height              : 546px;
+    width               : 1602px;
+    position            : absolute;
+    margin              : 0;
+    left                : -1px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .weareexp .rectangle2 {
+    background-color    : rgba(239, 241, 243, 1.0);
+    top                 : 1px;
+    height              : 544px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .weareexp .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 162px;
+    height              : 188px;
+    width               : 448px;
+    position            : absolute;
+    margin              : 0;
+    left                : 157px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .weareexp .group .experienced {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 58px;
+    height              : auto;
+    width               : 448px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Baskerville", Helvetica, Arial, serif;
+    font-size           : 80.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 92.0px;
+  }
+  .background .weareexp .group .developers {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 142px;
+    height              : auto;
+    width               : 189px;
+    position            : absolute;
+    margin              : 0;
+    left                : 254px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Baskerville", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : right;
+    line-height         : 46.0px;
+  }
+  .background .weareexp .group .weare {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : 146px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Baskerville-Italic", Helvetica, Arial, serif;
+    font-size           : 60.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 68.0px;
+  }
+  .background .weareexp .loremipsumissimpl {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 116px;
+    height              : auto;
+    width               : 733px;
+    position            : absolute;
+    margin              : 0;
+    left                : 714px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.8;
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 28.0px;
+  }
+  .background .weareexp .line2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 2px;
+    width               : 1602px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .weareexp .line2copy {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 544px;
+    height              : 2px;
+    width               : 1602px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 3447px;
+    height              : 295px;
+    width               : 535px;
+    position            : absolute;
+    margin              : 0;
+    left                : 532px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .rectangle2 {
+    background-color    : rgba(0, 0, 0, 1.0);
+    top                 : 70px;
+    height              : 54px;
+    width               : 535px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 4px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .youremailhere {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 85px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 25px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 25.0px;
+  }
+  .background .footer .subscribewithus {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 152px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 28.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    line-height         : 38.0px;
+  }
+  .background .footer .group3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 89px;
+    height              : 16px;
+    width               : 26px;
+    position            : absolute;
+    margin              : 0;
+    left                : 485px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group3 .line4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 6px;
+    height              : 3px;
+    width               : 25px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group3 .path2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 16px;
+    width               : 9px;
+    position            : absolute;
+    margin              : 0;
+    left                : 17px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 169px;
+    height              : 22px;
+    width               : 193px;
+    position            : absolute;
+    margin              : 0;
+    left                : 172px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .facebook {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 22px;
+    width               : 11px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .facebook .path {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 22px;
+    width               : 11px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .instagram {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 21px;
+    width               : 21px;
+    position            : absolute;
+    margin              : 0;
+    left                : 109px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .instagram .shape {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 21px;
+    width               : 21px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .instagram .shape1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 5px;
+    height              : 11px;
+    width               : 11px;
+    position            : absolute;
+    margin              : 0;
+    left                : 5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .instagram .path {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 4px;
+    height              : 2px;
+    width               : 2px;
+    position            : absolute;
+    margin              : 0;
+    left                : 15px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .pinterest {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 22px;
+    width               : 17px;
+    position            : absolute;
+    margin              : 0;
+    left                : 51px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .pinterest .path {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 22px;
+    width               : 17px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .twitter {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1px;
+    height              : 19px;
+    width               : 23px;
+    position            : absolute;
+    margin              : 0;
+    left                : 170px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .group4 .twitter .path {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 19px;
+    width               : 23px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .footer .a2512018camperswhoc {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 278px;
+    height              : auto;
+    width               : 278px;
+    position            : absolute;
+    margin              : 0;
+    left                : 129px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.6;
+    font-family         : "Baskerville", Helvetica, Arial, serif;
+    font-size           : 14.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : center;
+    line-height         : 16.0px;
+  }
+  .background .group2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1557px;
+    height              : 554px;
+    width               : 1241px;
+    position            : absolute;
+    margin              : 0;
+    left                : 102px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group2 .a0touchwebsitesdev {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 36.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : left;
+    line-height         : 51.0px;
+  }
+  .background .group2 .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 157px;
+    height              : 124px;
+    width               : 384px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group2 .group .savetimeandhassle {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : left;
+    line-height         : 25.0px;
+  }
+  .background .group2 .group .loremipsumdolorsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 38px;
+    height              : auto;
+    width               : 385px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 16.0px;
+    color               : rgba(107, 107, 107, 1.0);
+    text-align          : left;
+    line-height         : 28.0px;
+  }
+  .background .group2 .group1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 308px;
+    height              : 124px;
+    width               : 384px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group2 .group1 .talentedandafforda {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : auto;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : left;
+    line-height         : 25.0px;
+  }
+  .background .group2 .group1 .loremipsumdolorsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 38px;
+    height              : auto;
+    width               : 385px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 16.0px;
+    color               : rgba(107, 107, 107, 1.0);
+    text-align          : left;
+    line-height         : 28.0px;
+  }
+  .background .group2 .line {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 551px;
+    height              : 3px;
+    width               : 1173px;
+    position            : absolute;
+    margin              : 0;
+    left                : 68px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2258px;
+    height              : 202px;
+    width               : 1171px;
+    position            : absolute;
+    margin              : 0;
+    left                : 168px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 202px;
+    width               : 368px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .getproposals {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 78px;
+    height              : auto;
+    width               : 367px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : center;
+    line-height         : 25.0px;
+  }
+  .background .group5 .a1 .loremipsumdolorsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 116px;
+    height              : auto;
+    width               : 369px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 16.0px;
+    color               : rgba(107, 107, 107, 1.0);
+    text-align          : center;
+    line-height         : 28.0px;
+  }
+  .background .group5 .a1 .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 60px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 158px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .fill1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 10px;
+    height              : 50px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 13px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .fill2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 6px;
+    width               : 3px;
+    position            : absolute;
+    margin              : 0;
+    left                : 28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .fill3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 45px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .group7 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 27px;
+    height              : 3px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .group7 .group71 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 3px;
+    width               : 60px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a1 .group .fill8 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 8px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 202px;
+    width               : 368px;
+    position            : absolute;
+    margin              : 0;
+    left                : 405px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .setupameeting {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 78px;
+    height              : auto;
+    width               : 367px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : center;
+    line-height         : 25.0px;
+  }
+  .background .group5 .a11 .loremipsumdolorsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 116px;
+    height              : auto;
+    width               : 369px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 16.0px;
+    color               : rgba(107, 107, 107, 1.0);
+    text-align          : center;
+    line-height         : 28.0px;
+  }
+  .background .group5 .a11 .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 60px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 158px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .fill1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 10px;
+    height              : 50px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 13px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .fill2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 6px;
+    width               : 3px;
+    position            : absolute;
+    margin              : 0;
+    left                : 28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .fill3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 45px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .group7 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 27px;
+    height              : 3px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .group7 .group71 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 3px;
+    width               : 60px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a11 .group .fill8 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 8px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 202px;
+    width               : 368px;
+    position            : absolute;
+    margin              : 0;
+    left                : 803px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .getyourwebiste {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 78px;
+    height              : auto;
+    width               : 367px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 18.0px;
+    color               : rgba(64, 64, 64, 1.0);
+    text-align          : center;
+    line-height         : 25.0px;
+  }
+  .background .group5 .a12 .loremipsumdolorsi {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 116px;
+    height              : auto;
+    width               : 369px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
+    font-size           : 16.0px;
+    color               : rgba(107, 107, 107, 1.0);
+    text-align          : center;
+    line-height         : 28.0px;
+  }
+  .background .group5 .a12 .group {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 60px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 158px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .fill1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 10px;
+    height              : 50px;
+    width               : 33px;
+    position            : absolute;
+    margin              : 0;
+    left                : 13px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .fill2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 6px;
+    width               : 3px;
+    position            : absolute;
+    margin              : 0;
+    left                : 28px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .fill3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 45px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .group7 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 27px;
+    height              : 3px;
+    width               : 60px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .group7 .group71 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 3px;
+    width               : 60px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .group5 .a12 .group .fill8 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : 6px;
+    width               : 6px;
+    position            : absolute;
+    margin              : 0;
+    left                : 8px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .background .a1gl4picuesidie83u6tfqyg {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 355px;
+    height              : 459px;
+    width               : 583px;
+    position            : absolute;
+    margin              : 0;
+    left                : 862px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.75;
+  }
+  .background .a0ngxgbnndx6iiwp8q {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 1632px;
+    height              : 350px;
+    width               : 766px;
+    position            : absolute;
+    margin              : 0;
+    left                : 724px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  
+  .background {
+    width               : 80%;
+  }
   /* .anima-animate-appear prefix for appear animations */
   .anima-animate-appear {
     opacity             : 0;

@@ -13,7 +13,15 @@ var router = express.Router();
 router.get("/", function(req, res, next) {
     res.render("index");
 });
-
+//User Click Re-directs
+router.post("/clickpostbutton", function(req,res) {
+    res.redirect("/postJobs");
+    console.log(a);
+});
+router.post("/clickbuttonsearch", function(req,res) {
+    res.redirect("/");
+    console.log(b);
+});
 
 // Shows "jobs" Table As JSON
 //==============================

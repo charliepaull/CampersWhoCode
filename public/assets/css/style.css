@@ -1127,7 +1127,7 @@ body {
     background-size: 100%;
   }
   
-  .background {
+  .background1 {
     width               : 1440px;
     /* height              : 100vh; */
     position            : relative;
@@ -1149,7 +1149,7 @@ body {
   div {
     -webkit-text-size-adjust: none;
   }
-  .background .bitmap {
+  .background1 .bitmap {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
     height              : 100%;
@@ -1161,7 +1161,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar {
+  .background1 .navbar {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 130px;
@@ -1173,7 +1173,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .bar {
+  .background1 .navbar .bar {
     background-color    : rgba(255, 255, 255, 0.91);
     top                 : 0px;
     height              : 130px;
@@ -1185,7 +1185,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton {
+  .background1 .navbar .menubutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 44px;
     height              : 43px;
@@ -1197,7 +1197,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton .menuicon {
+  .background1 .navbar .menubutton .menuicon {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 43px;
@@ -1210,7 +1210,7 @@ body {
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
-  .background .bootcampers {
+  .background1 .bootcampers {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : auto;
@@ -1306,14 +1306,37 @@ body {
         opacity: 1;
       }
   }
-  
-  .background {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* Problem area */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+
+  .background1 {
     width               : 100%;
     min-width           : 1600px;
     /* height              : 100vh; */
     min-height          : 3903px;
+    display             : block; 
     position            : relative;
-    overflow            : hidden;
+    overflow            : auto;
     margin              : 0 auto;
   }
   a {
@@ -1331,7 +1354,7 @@ body {
   div {
     -webkit-text-size-adjust: none;
   }
-  .background .rectangle {
+  .background1 .rectangle {
     background-color    : rgba(247, 249, 251, 1.0);
     top                 : 565px;
     height              : 832px;
@@ -1343,7 +1366,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .rectangle1 {
+  .background1 .rectangle1 {
     background-color    : rgba(255, 255, 255, 1.0);
     top                 : 1397px;
     height              : 2510px;
@@ -1355,7 +1378,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .navbar {
+  .background1 .navbar {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 130px;
@@ -1367,7 +1390,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .navbar .bar {
+  .background1 .navbar .bar {
     background-color    : rgba(255, 255, 255, 0.91);
     top                 : 0px;
     height              : 130px;
@@ -1379,7 +1402,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton {
+  .background1 .navbar .menubutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 44px;
     height              : 43px;
@@ -1391,7 +1414,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton .menuicon {
+  .background1 .navbar .menubutton .menuicon {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 43px;
@@ -1404,7 +1427,7 @@ body {
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
-  .background .camperswhocode {
+  .background1 .camperswhocode {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : auto;
@@ -1421,7 +1444,7 @@ body {
     text-align          : left;
     line-height         : 96.0px;
   }
-  .background .landing {
+  .background1 .landing {
     background-color    : rgba(255,255,255,0.0);
     top                 : 145px;
     height              : 844px;
@@ -1433,7 +1456,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .landing .rectangle2 {
+  .background1 .landing .rectangle2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0%;
     height              : 100%;
@@ -1445,7 +1468,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .landing .developersthatspea {
+  .background1 .landing .developersthatspea {
     background-color    : rgba(255,255,255,0.0);
     top                 : 458px;
     height              : auto;
@@ -1462,7 +1485,7 @@ body {
     text-align          : left;
     line-height         : 41.0px;
   }
-  .background .landing .camperswhocode1 {
+  .background1 .landing .camperswhocode1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 488px;
     height              : auto;
@@ -1479,7 +1502,7 @@ body {
     text-align          : left;
     line-height         : 89.0px;
   }
-  .background .landing .getstartedbutton {
+  .background1 .landing .getstartedbutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 587px;
     height              : 63px;
@@ -1491,7 +1514,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .landing .searchprojects {
+  .background1 .landing .searchprojects {
     background-color    : rgba(255,255,255,0.0);
     top                 : 596px;
     height              : auto;
@@ -1508,7 +1531,7 @@ body {
     text-align          : center;
     line-height         : 38.0px;
   }
-  .background .latestclient {
+  .background1 .latestclient {
     background-color    : rgba(255,255,255,0.0);
     top                 : 961px;
     height              : 378px;
@@ -1520,7 +1543,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .latestclient .whatwebuild {
+  .background1 .latestclient .whatwebuild {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1537,7 +1560,7 @@ body {
     text-align          : center;
     line-height         : 68.0px;
   }
-  .background .latestclient .professionalwebsi {
+  .background1 .latestclient .professionalwebsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 105px;
     height              : auto;
@@ -1555,7 +1578,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .latestclient .restaurantwebsite {
+  .background1 .latestclient .restaurantwebsite {
     background-color    : rgba(255,255,255,0.0);
     top                 : 105px;
     height              : auto;
@@ -1573,7 +1596,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .latestclient .line2 {
+  .background1 .latestclient .line2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 376px;
     height              : 2px;
@@ -1585,7 +1608,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .latestclient .button {
+  .background1 .latestclient .button {
     background-color    : rgba(255,255,255,0.0);
     top                 : 222px;
     height              : 40px;
@@ -1597,7 +1620,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .rectangle2 {
+  .background1 .latestclient .button .rectangle2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 40px;
@@ -1613,7 +1636,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .gallery {
+  .background1.latestclient .button .gallery {
     background-color    : rgba(255,255,255,0.0);
     top                 : 12px;
     height              : auto;
@@ -1630,7 +1653,7 @@ body {
     text-align          : center;
     line-height         : 19.0px;
   }
-  .background .latestclient .button .line3 {
+  .background1 .latestclient .button .line3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 20px;
     height              : 2px;
@@ -1642,7 +1665,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .rectangle11 {
+  .background1 .latestclient .button .rectangle11 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : 5px;
@@ -1654,7 +1677,7 @@ body {
     -webkit-transform   : rotate(-225deg); /* Chrome, Safari, Opera */
     transform           : rotate(-225deg);
   }
-  .background .weareexp {
+  .background1 .weareexp {
     background-color    : rgba(255,255,255,0.0);
     top                 : 2699px;
     height              : 546px;
@@ -1666,7 +1689,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .weareexp .rectangle2 {
+  .background1 .weareexp .rectangle2 {
     background-color    : rgba(239, 241, 243, 1.0);
     top                 : 1px;
     height              : 544px;
@@ -1678,7 +1701,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .weareexp .group {
+  .background1 .weareexp .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 162px;
     height              : 188px;
@@ -1690,7 +1713,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .weareexp .group .experienced {
+  .background1 .weareexp .group .experienced {
     background-color    : rgba(255,255,255,0.0);
     top                 : 58px;
     height              : auto;
@@ -1707,7 +1730,7 @@ body {
     text-align          : left;
     line-height         : 92.0px;
   }
-  .background .weareexp .group .developers {
+  .background1 .weareexp .group .developers {
     background-color    : rgba(255,255,255,0.0);
     top                 : 142px;
     height              : auto;
@@ -1724,7 +1747,7 @@ body {
     text-align          : right;
     line-height         : 46.0px;
   }
-  .background .weareexp .group .weare {
+  .background1 .weareexp .group .weare {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1741,7 +1764,7 @@ body {
     text-align          : left;
     line-height         : 68.0px;
   }
-  .background .weareexp .loremipsumissimpl {
+  .background1 .weareexp .loremipsumissimpl {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -1759,7 +1782,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .weareexp .line2 {
+  .background1 .weareexp .line2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 2px;
@@ -1771,7 +1794,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .weareexp .line2copy {
+  .background1 .weareexp .line2copy {
     background-color    : rgba(255,255,255,0.0);
     top                 : 544px;
     height              : 2px;
@@ -1783,7 +1806,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer {
+  .background1 .footer {
     background-color    : rgba(255,255,255,0.0);
     top                 : 3447px;
     height              : 295px;
@@ -1795,7 +1818,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .rectangle2 {
+  .background1 .footer .rectangle2 {
     background-color    : rgba(0, 0, 0, 1.0);
     top                 : 70px;
     height              : 54px;
@@ -1808,7 +1831,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .youremailhere {
+  .background1 .footer .youremailhere {
     background-color    : rgba(255,255,255,0.0);
     top                 : 85px;
     height              : auto;
@@ -1825,7 +1848,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .footer .subscribewithus {
+  .background1 .footer .subscribewithus {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1842,7 +1865,7 @@ body {
     text-align          : center;
     line-height         : 38.0px;
   }
-  .background .footer .group3 {
+  .background1 .footer .group3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 89px;
     height              : 16px;
@@ -1854,7 +1877,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group3 .line4 {
+  .background1 .footer .group3 .line4 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 6px;
     height              : 3px;
@@ -1866,7 +1889,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group3 .path2 {
+  .background1 .footer .group3 .path2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 16px;
@@ -1878,7 +1901,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 {
+  .background1 .footer .group4 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 169px;
     height              : 22px;
@@ -1890,7 +1913,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .facebook {
+  .background1 .footer .group4 .facebook {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1902,7 +1925,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .facebook .path {
+  .background1 .footer .group4 .facebook .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1914,7 +1937,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram {
+  .background1 .footer .group4 .instagram {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 21px;
@@ -1926,7 +1949,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .shape {
+  .background1 .footer .group4 .instagram .shape {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 21px;
@@ -1938,7 +1961,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .shape1 {
+  .background1 .footer .group4 .instagram .shape1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 5px;
     height              : 11px;
@@ -1950,7 +1973,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .path {
+  .background1 .footer .group4 .instagram .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 4px;
     height              : 2px;
@@ -1962,7 +1985,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .pinterest {
+  .background1 .footer .group4 .pinterest {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1974,7 +1997,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .pinterest .path {
+  .background1 .footer .group4 .pinterest .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1986,7 +2009,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .twitter {
+  .background1 .footer .group4 .twitter {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1px;
     height              : 19px;
@@ -1998,7 +2021,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .twitter .path {
+  .background1 .footer .group4 .twitter .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 19px;
@@ -2010,7 +2033,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .footer .a2512018camperswhoc {
+  .background1 .footer .a2512018camperswhoc {
     background-color    : rgba(255,255,255,0.0);
     top                 : 278px;
     height              : auto;
@@ -2028,7 +2051,7 @@ body {
     text-align          : center;
     line-height         : 16.0px;
   }
-  .background .group2 {
+  .background1 .group2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1557px;
     height              : 554px;
@@ -2040,7 +2063,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group2 .a0touchwebsitesdev {
+  .background1 .group2 .a0touchwebsitesdev {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2057,7 +2080,7 @@ body {
     text-align          : left;
     line-height         : 51.0px;
   }
-  .background .group2 .group {
+  .background1 .group2 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 157px;
     height              : 124px;
@@ -2069,7 +2092,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group2 .group .savetimeandhassle {
+  .background1 .group2 .group .savetimeandhassle {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2086,7 +2109,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .group2 .group .loremipsumdolorsi {
+  .background1 .group2 .group .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 38px;
     height              : auto;
@@ -2103,7 +2126,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .group2 .group1 {
+  .background1 .group2 .group1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 308px;
     height              : 124px;
@@ -2115,7 +2138,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group2 .group1 .talentedandafforda {
+  .background1 .group2 .group1 .talentedandafforda {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2132,7 +2155,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .group2 .group1 .loremipsumdolorsi {
+  .background1 .group2 .group1 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 38px;
     height              : auto;
@@ -2149,7 +2172,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .group2 .line {
+  .background1 .group2 .line {
     background-color    : rgba(255,255,255,0.0);
     top                 : 551px;
     height              : 3px;
@@ -2161,7 +2184,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 {
+  .background1 .group5 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 2258px;
     height              : 202px;
@@ -2173,7 +2196,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 {
+  .background1 .group5 .a1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2185,7 +2208,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .getproposals {
+  .background1 .group5 .a1 .getproposals {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2202,7 +2225,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a1 .loremipsumdolorsi {
+  .background1 .group5 .a1 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2219,7 +2242,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a1 .group {
+  .background1 .group5 .a1 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2231,7 +2254,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill1 {
+  .background1 .group5 .a1 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2243,7 +2266,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill2 {
+  .background1 .group5 .a1 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2255,7 +2278,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill3 {
+  .background1 .group5 .a1 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2267,7 +2290,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .group7 {
+  .background1 .group5 .a1 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2279,7 +2302,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .group7 .group71 {
+  .background1 .group5 .a1 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2291,7 +2314,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill8 {
+  .background1 .group5 .a1 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2303,7 +2326,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 {
+  .background1 .group5 .a11 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2315,7 +2338,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .setupameeting {
+  .background1 .group5 .a11 .setupameeting {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2332,7 +2355,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a11 .loremipsumdolorsi {
+  .background1 .group5 .a11 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2349,7 +2372,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a11 .group {
+  .background1 .group5 .a11 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2361,7 +2384,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill1 {
+  .background1 .group5 .a11 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2373,7 +2396,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill2 {
+  .background1 .group5 .a11 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2385,7 +2408,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill3 {
+  .background1 .group5 .a11 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2397,7 +2420,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .group7 {
+  .background1 .group5 .a11 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2409,7 +2432,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .group7 .group71 {
+  .background1 .group5 .a11 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2421,7 +2444,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill8 {
+  .background1 .group5 .a11 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2433,7 +2456,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 {
+  .background1 .group5 .a12 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2445,7 +2468,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .getyourwebiste {
+  .background1 .group5 .a12 .getyourwebiste {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2462,7 +2485,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a12 .loremipsumdolorsi {
+  .background1 .group5 .a12 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2479,7 +2502,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a12 .group {
+  .background1 .group5 .a12 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2491,7 +2514,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill1 {
+  .background1 .group5 .a12 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2503,7 +2526,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill2 {
+  .background1 .group5 .a12 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2515,7 +2538,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill3 {
+  .background1 .group5 .a12 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2527,7 +2550,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .group7 {
+  .background1 .group5 .a12 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2539,7 +2562,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .group7 .group71 {
+  .background1 .group5 .a12 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2551,7 +2574,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill8 {
+  .background1 .group5 .a12 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2563,7 +2586,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .background .a1gl4picuesidie83u6tfqyg {
+  .background1 .a1gl4picuesidie83u6tfqyg {
     background-color    : rgba(255,255,255,0.0);
     top                 : 355px;
     height              : 459px;
@@ -2576,7 +2599,7 @@ body {
     transform           : rotate(0deg);
     opacity             : 0.75;
   }
-  .background .a0ngxgbnndx6iiwp8q {
+  .background1 .a0ngxgbnndx6iiwp8q {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1632px;
     height              : 350px;
@@ -2589,7 +2612,7 @@ body {
     transform           : rotate(0deg);
   }
   
-  .background {
+  .background1 {
     width               : 80%;
   }
   /* .anima-animate-appear prefix for appear animations */

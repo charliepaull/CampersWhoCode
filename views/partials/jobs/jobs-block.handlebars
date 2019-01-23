@@ -228,21 +228,21 @@
          };
          anima(); 
 
-//$("ul").find(`[data-slide='${current}']`)
-
         function showMoreClick(id) {
-           var modal = $(".contactmodal");
-           modal.each(function(index, element) {
-               if (index.attr("data-key") === id) {
-                   if ($(this).attr("id") === "hidden") {
-                this.attr("id", "show");
-                }   
-                else {
-                this.attr("id", "hidden");
-        }
-               }
-           })
+           
+           var modal = $("[data-key='" + id + "']");
+
+           console.log(modal.attr("id"));
+           console.log(modal.attr("data-key"));
+           
+           if (modal.attr("id") === "hidden") {
+               modal.attr("id", "show");
+           } else {
+               modal.attr("id", "hidden");
+           };
+               
         };
+
 
 
         </script>

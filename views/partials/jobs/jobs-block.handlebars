@@ -76,19 +76,19 @@
                     <div class="jobtitle">
                         {{job_title}}
                     </div>
-                    <div class="morebutton">
+                    <button class="moreButtonDiv" onclick="showMoreClick({{id}})">
                         <div class="boxmoredetails">
                         </div>
                         <div class="contactdetails">
                             <span class="span1">CONTACT DETAIL</span><span class="span2">S</span>
                         </div>
-                    </div>
+                    </button>
                 </div>
-                <div class="contactmodal">
+                <div class="contactmodal" id="hidden" data-key="{{id}}">
                     <div class="image">
                         <div class="mask">
                         </div>
-                        <img anima-src="./assets/images/2-poltrona-gaia 2.png" class="poltronagaia" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <img src="./assets/images/2-poltrona-gaia 2.png" class="poltronagaia" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     </div>
                     <div class="morebutton">
                         <div class="boxmoredetails">
@@ -133,23 +133,24 @@
                     <div class="contactus">
                         Contact Us
                     </div>
-                    <div class="closebutton">
+                    <button class="closebutton" onclick="showMoreClick({{id}})">
                         <div class="boxmoredetails">
                         </div>
                         <div class="close">
                             CLOSE
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
         <!-- Scripts -->
         <script>
 
-
-               
             // Anima JS
             //_______________________
+            function anima() {
+
+            
             anima_isHidden = function(e) {
                 if (!(e instanceof HTMLElement)) return !1;
                 if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
@@ -224,13 +225,24 @@
                 anima_loadAsyncSrc();
             }, 200);
 
+         };
+         anima(); 
 
+//$("ul").find(`[data-slide='${current}']`)
 
-            //My JS
-            //_______________________
-      
-
-
+        function showMoreClick(id) {
+           var modal = $(".contactmodal");
+           modal.each(function(index, element) {
+               if (index.attr("data-key") === id) {
+                   if ($(this).attr("id") === "hidden") {
+                this.attr("id", "show");
+                }   
+                else {
+                this.attr("id", "hidden");
+        }
+               }
+           })
+        };
 
 
         </script>

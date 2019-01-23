@@ -214,6 +214,11 @@ body {
 /* ====================== */
 
 
+#hidden{
+    display: none;
+}
+
+
 
 .a2 {
     width               : 100%;
@@ -602,7 +607,7 @@ body {
     text-align          : left;
     line-height         : 60.0px;
   }
-  .a2 .description .morebutton {
+  .a2 .description .moreButtonDiv {
     background-color    : rgba(255,255,255,0.0);
     top                 : 546px;
     height              : 36px;
@@ -614,7 +619,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .a2 .description .morebutton .boxmoredetails {
+  .a2 .description .moreButtonDiv .boxmoredetails {
     background-color    : rgba(135, 198, 190, 1.0);
     top                 : 0px;
     height              : 36px;
@@ -627,7 +632,7 @@ body {
     -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
     transform           : rotate(0deg);
   }
-  .a2 .description .morebutton .contactdetails {
+  .a2 .description .moreButtonDiv .contactdetails {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;

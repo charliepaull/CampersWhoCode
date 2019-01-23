@@ -1,4 +1,6 @@
-
+/* ====================== */
+    /* Background CSS */
+/* ====================== */
 .wrap {
     width:1300px;
     margin:0 auto;
@@ -8,7 +10,8 @@
 
 .card {
     background-color: white;
-    opacity: 0.9;
+    opacity: 0.96;
+    margin-top: 190px;
 }
 
 
@@ -16,3 +19,1080 @@
 #employer {
     color: rgba(135, 198, 190, 1.0);
 }
+
+body {
+    background-image: url(/assets/images/background-bitmap.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .background {
+    width               : 1440px;
+    /* height              : 100vh; */
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0 auto;
+  }
+  a {
+    text-decoration     : none;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .anima-full-width-a {
+    width               : 100%;
+  }
+  .anima-full-height-a {
+    height              : 100%;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .background .bitmap {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 130px;
+    height              : 100%;
+    width               : 1600px;
+    position            : static;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .bar {
+    background-color    : rgba(255, 255, 255, 0.91);
+    top                 : 0px;
+    height              : 130px;
+    width               : 1600px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 44px;
+    height              : 43px;
+    width               : 70px;
+    position            : absolute;
+    margin              : 0;
+    left                : 1313px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+  }
+  .background .navbar .menubutton .menuicon {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 43px;
+    width               : 70px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+    opacity             : 0.9;
+  }
+  .background .bootcampers {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 19px;
+    height              : auto;
+    width               : 487px;
+    position            : absolute;
+    margin              : 0;
+    left                : 51px;
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 70.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 96.0px;
+  }
+  
+  .anima-animate-appear {
+    opacity             : 0;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  }
+  .anima-animate-disappear {
+    opacity             : 1;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  }
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay  : 0;
+    animation-delay     : 0;
+  }
+
+
+  @-webkit-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-moz-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-o-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+
+/* ====================== */
+  /* Employer Card CSS */
+/* ====================== */
+
+
+#hidden {
+    display: none;
+}
+
+
+
+.a2 {
+    width               : 100%;
+    min-width           : 1158px;
+    height              : 100vh;
+    min-height          : 979px;
+    position            : relative;
+    overflow            : hidden;
+    margin              : 0px;
+    background-color    : rgba(255, 255, 255, 0.9);
+  }
+  a {
+    text-decoration     : none;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .anima-full-width-a {
+    width               : 100%;
+  }
+  .anima-full-height-a {
+    height              : 100%;
+  }
+  div {
+    -webkit-text-size-adjust: none;
+  }
+  .a2 .salarysection {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 714px;
+    height              : 215px;
+    width               : 805px;
+    position            : absolute;
+    margin              : 0;
+    left                : 189px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.9;
+  }
+  .a2 .salarysection .image {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 215px;
+    width               : 805px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .image .poltronagaia {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 215px;
+    width               : 805px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .image .mask {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 215px;
+    width               : 805px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .a5000 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : auto;
+    width               : 197px;
+    position            : absolute;
+    margin              : 0;
+    left                : 598px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : center;
+    line-height         : 60.0px;
+  }
+  .a2 .salarysection .a3000 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : auto;
+    width               : 197px;
+    position            : absolute;
+    margin              : 0;
+    left                : 374px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : center;
+    line-height         : 60.0px;
+  }
+  .a2 .salarysection .a1000 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 113px;
+    height              : auto;
+    width               : 197px;
+    position            : absolute;
+    margin              : 0;
+    left                : 148px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : center;
+    line-height         : 60.0px;
+  }
+  .a2 .salarysection .salary {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : 132px;
+    position            : absolute;
+    margin              : 0;
+    left                : 21px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 40.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 60.0px;
+  }
+  .a2 .salarysection .advanced {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 57px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 628px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .advanced .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .advanced .advanced1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : auto;
+    width               : 86px;
+    position            : absolute;
+    margin              : 0;
+    left                : 26px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .salarysection .intermediate {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 57px;
+    height              : 36px;
+    width               : 138px;
+    position            : absolute;
+    margin              : 0;
+    left                : 403px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .intermediate .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .intermediate .intermediate1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : auto;
+    width               : 138px;
+    position            : absolute;
+    margin              : 0;
+    left                : -0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .salarysection .beginner {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 57px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 178px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .beginner .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .salarysection .beginner .beginner1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 8px;
+    height              : auto;
+    width               : 86px;
+    position            : absolute;
+    margin              : 0;
+    left                : 26px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .bitmap {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 143px;
+    height              : 519px;
+    width               : 779px;
+    position            : absolute;
+    margin              : 0;
+    left                : 240px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .logotype {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 50px;
+    height              : auto;
+    width               : 226px;
+    position            : absolute;
+    margin              : 0;
+    left                : 60px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 28.0px;
+    color               : rgba(83, 83, 85, 1.0);
+    text-align          : left;
+    line-height         : 38.0px;
+  }
+  .a2 .description {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 96px;
+    height              : 597px;
+    width               : 361px;
+    position            : absolute;
+    margin              : 0;
+    left                : 19px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .description .image {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 597px;
+    width               : 361px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    overflow            : hidden;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    opacity             : 0.9;
+  }
+  .a2 .description .image .mask {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 597px;
+    width               : 361px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .description .image .poltronagaia {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 597px;
+    width               : 361px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .description .hereliesthedescri {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 217px;
+    height              : auto;
+    width               : 298px;
+    position            : absolute;
+    margin              : 0;
+    left                : 36px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 14.0px;
+    color               : rgba(0, 0, 0, 1.0);
+    text-align          : left;
+    line-height         : 30.0px;
+  }
+  .a2 .description .jobtitle {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 74px;
+    height              : auto;
+    width               : 300px;
+    position            : absolute;
+    margin              : 0;
+    left                : 34px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 70.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 60.0px;
+  }
+  .a2 .description .moreButtonDiv {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 546px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 112px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .description .moreButtonDiv .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 36px;
+    width               : 137px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .description .moreButtonDiv .contactdetails {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : auto;
+    width               : 86px;
+    position            : absolute;
+    margin              : 0;
+    left                : 26px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .description .morebutton .contactdetails .span1 {
+    
+  }
+  .a2 .description .morebutton .contactdetails .span2 {
+    
+  }
+  .a2 .contactmodal {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 236px;
+    height              : 432px;
+    width               : 688px;
+    position            : absolute;
+    margin              : 0;
+    left                : 248px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .image {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 2px;
+    height              : 424px;
+    width               : 680px;
+    position            : absolute;
+    margin              : 0;
+    left                : 4px;
+    border-radius       : 2px;
+    overflow            : hidden;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .image .mask {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 0px;
+    height              : 424px;
+    box-sizing          : border-box;
+    width               : 680px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    border-style        : solid;
+    border-width        : 4px;
+    border-color        : rgba(0, 0, 0, 1.0);
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .image .poltronagaia {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : -22px;
+    height              : 444px;
+    width               : 755px;
+    position            : absolute;
+    margin              : 0;
+    left                : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 263px;
+    height              : 29px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 398px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton .linkedin {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 5px;
+    height              : auto;
+    width               : 136px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .contactmodal .morebutton1 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 172px;
+    height              : 29px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 398px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton1 .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton1 .weblink {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 5px;
+    height              : auto;
+    width               : 136px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .contactmodal .morebutton2 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 264px;
+    height              : 27px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 93px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton2 .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton2 .phone {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 4px;
+    height              : auto;
+    width               : 136px;
+    position            : absolute;
+    margin              : 0;
+    left                : 32px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .contactmodal .morebutton3 {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 172px;
+    height              : 27px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 93px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton3 .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 50px;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .morebutton3 .email {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 4px;
+    height              : auto;
+    width               : 169px;
+    position            : absolute;
+    margin              : 0;
+    left                : 17px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+  .a2 .contactmodal .contactus {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 35px;
+    height              : auto;
+    width               : 381px;
+    position            : absolute;
+    margin              : 0;
+    left                : 155px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 70.0px;
+    color               : rgba(135, 198, 190, 1.0);
+    text-align          : left;
+    line-height         : 60.0px;
+  }
+  .a2 .contactmodal .closebutton {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 363px;
+    height              : 27px;
+    width               : 154px;
+    position            : absolute;
+    margin              : 0;
+    left                : 267px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .closebutton .boxmoredetails {
+    background-color    : rgba(135, 198, 190, 1.0);
+    top                 : 0px;
+    height              : 27px;
+    width               : 154px;
+    position            : absolute;
+    margin              : 0;
+    left                : 0px;
+    border-radius       : 2px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+  }
+  .a2 .contactmodal .closebutton .close {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 4px;
+    height              : auto;
+    width               : 104px;
+    position            : absolute;
+    margin              : 0;
+    left                : 25px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+  }
+
+#email {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 25px;
+    height              : auto;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+}
+
+#phone {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 25px;
+    height              : auto;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+}
+
+#weblink {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 25px;
+    height              : auto;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+}
+
+#linkedin {
+    background-color    : rgba(255,255,255,0.0);
+    top                 : 25px;
+    height              : auto;
+    width               : 201px;
+    position            : absolute;
+    margin              : 0;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size           : 13.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : center;
+    letter-spacing      : 0.5px;
+    line-height         : 18.0px;
+}
+
+
+  /* .anima-animate-appear prefix for appear animations */
+  .anima-animate-appear {
+    opacity             : 0;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  }
+  .anima-animate-disappear {
+    opacity             : 1;
+    display             : block;
+    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  }
+  .anima-animate-nodelay {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    -o-animation-delay  : 0;
+    animation-delay     : 0;
+  }
+  @-webkit-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-moz-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @-o-keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }
+  @keyframes anima-reveal {
+    0%
+     
+    {
+        opacity: 0;
+      }
+    
+      
+    100%
+     
+    {
+        opacity: 1;
+      }
+  }

@@ -36,7 +36,7 @@ body {
   
   .background {
     width               : 1440px;
-    height              : 100vh;
+    /* height              : 100vh; */
     position            : relative;
     overflow            : hidden;
     margin              : 0 auto;
@@ -228,6 +228,17 @@ body {
 
 #hidden {
     display: none;
+}
+
+.a2 {
+  width               : 100%;
+  min-width           : 1158px;
+  height              : 100vh;
+  min-height          : 979px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 0.9);
 }
 
 
@@ -662,12 +673,12 @@ body {
     letter-spacing      : 0.5px;
     line-height         : 18.0px;
   }
-  .a2 .description .morebutton .contactdetails .span1 {
+  /* .a2 .description .morebutton .contactdetails .span1 {
     
-  }
-  .a2 .description .morebutton .contactdetails .span2 {
+  } */
+  /* .a2 .description .morebutton .contactdetails .span2 {
     
-  }
+  } */
   .a2 .contactmodal {
     background-color    : rgba(255,255,255,0.0);
     top                 : 236px;
@@ -1306,27 +1317,6 @@ body {
         opacity: 1;
       }
   }
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /* Problem area */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
-  /*  */
 
 
   .background1 {
@@ -2711,7 +2701,7 @@ body {
     color: rgba(135, 198, 190, 1.0);
     text-align: left;
     line-height: 96.0px;
-    padding-top: 15px;=
+    padding-top: 15px;
   }
 
   #form-info {

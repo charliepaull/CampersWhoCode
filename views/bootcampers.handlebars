@@ -4,8 +4,15 @@
                 <div class="navbar">
                     <div class="bar">
                     </div>
-                    <div class="menubutton">
+                    <div class="menubutton" id="dropdown">
                         <img src="/assets/images/background-menuicon@2x.png" class="menuicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="dropdown-content" id="hidden">
+                            <a id="dropdown-text" href="http://localhost:6969/">Home</a>
+                            <br>
+                            <a id="dropdown-text" href="http://localhost:6969/seeJobs">See Job Postings</a>
+                            <br>
+                            <a id="dropdown-text" href="http://localhost:6969/postJobs">Post A Job</a>
+                        </div>
                     </div>
                 </div>
                 <div class="bootcampers">
@@ -17,3 +24,16 @@
                     {{/each}}
                 </div>
         </div>
+
+<script>
+    function pageGo() {
+        $(".menubutton").on("click", function() {
+            if ($(".dropdown-content").attr("id") === "hidden") {
+                    $(".dropdown-content").attr("id", "show");
+            } else {
+                $(".dropdown-content").attr("id", "hidden");
+            }
+        })
+    }
+    pageGo();
+</script>

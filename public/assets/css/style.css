@@ -22,7 +22,6 @@
 }
 
 
-
 #employer {
     color: rgba(135, 198, 190, 1.0);
 }
@@ -41,21 +40,14 @@ body {
     overflow            : hidden;
     margin              : 0 auto;
   }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .anima-full-width-a {
     width               : 100%;
   }
   .anima-full-height-a {
     height              : 100%;
   }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .background .bitmap1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
@@ -215,15 +207,31 @@ body {
         opacity: 1;
       }
   }
-   /* ================================ */
+  /* ================================ */
+  /* ================================ */
     /* ================================ */
       /* ================================ */
-        /* ================================ */
-          /* Employer Card CSS */
-        /* ================================ */
+        /* Employer Card CSS */
       /* ================================ */
     /* ================================ */
   /* ================================ */
+/* ================================ */
+
+
+.dropdown-content {
+  position: absolute;
+  background-color: #fbf9f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  left: -40px;
+}
+
+#dropdown-text {
+  color: rgba(83, 83, 85, 1.0);
+}
+
+
 
 
 #hidden {
@@ -256,18 +264,7 @@ body {
   a {
     text-decoration     : none;
   }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .a2 .salarysection {
     background-color    : rgba(255,255,255,0.0);
     top                 : 714px;
@@ -276,8 +273,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 189px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
@@ -289,8 +286,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .image .poltronagaia {
@@ -301,8 +298,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .image .mask {
@@ -314,8 +311,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .a5000  {
@@ -326,8 +323,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 598px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -343,8 +340,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 374px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -360,8 +357,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 148px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -377,8 +374,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 21px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -394,8 +391,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 628px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .advanced .boxmoredetails {
@@ -407,8 +404,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .advanced .advanced1 {
@@ -419,8 +416,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -437,8 +434,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 403px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .intermediate .boxmoredetails {
@@ -450,8 +447,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .intermediate .intermediate1 {
@@ -462,8 +459,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : -0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -480,8 +477,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 178px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .beginner .boxmoredetails {
@@ -493,8 +490,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .beginner .beginner1 {
@@ -505,8 +502,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -523,8 +520,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 240px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .logotype {
@@ -535,8 +532,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 60px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -552,8 +549,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 19px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .image {
@@ -566,8 +563,8 @@ body {
     left                : 0px;
     border-radius       : 2px;
     overflow            : hidden;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
@@ -580,8 +577,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .image .poltronagaia {
@@ -592,8 +589,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .hereliesthedescri {
@@ -604,8 +601,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 36px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 14.0px;
@@ -621,8 +618,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 34px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -638,8 +635,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 112px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .moreButtonDiv .boxmoredetails {
@@ -651,8 +648,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .moreButtonDiv .contactdetails {
@@ -663,8 +660,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -687,8 +684,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 248px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image {
@@ -701,8 +698,8 @@ body {
     left                : 4px;
     border-radius       : 2px;
     overflow            : hidden;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image .mask {
@@ -718,8 +715,8 @@ body {
     border-style        : solid;
     border-width        : 4px;
     border-color        : rgba(0, 0, 0, 1.0);
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image .poltronagaia {
@@ -730,8 +727,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton {
@@ -742,8 +739,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 398px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton .boxmoredetails {
@@ -755,8 +752,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton .linkedin {
@@ -767,8 +764,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -785,8 +782,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 398px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton1 .boxmoredetails {
@@ -798,8 +795,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton1 .weblink {
@@ -810,8 +807,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -828,8 +825,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 93px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton2 .boxmoredetails {
@@ -841,8 +838,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton2 .phone {
@@ -853,8 +850,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -871,8 +868,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 93px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton3 .boxmoredetails {
@@ -884,8 +881,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton3 .email {
@@ -896,8 +893,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 17px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -914,8 +911,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 155px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -931,8 +928,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 267px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .closebutton .boxmoredetails {
@@ -944,8 +941,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .closebutton .close {
@@ -956,8 +953,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 25px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -974,8 +971,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -992,8 +989,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -1010,8 +1007,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -1028,8 +1025,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -1041,84 +1038,8 @@ body {
 
 
   /* .anima-animate-appear prefix for appear animations */
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
-  @-webkit-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-moz-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-o-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
+
+
 
   /* ================================ */
     /* ================================ */
@@ -1132,34 +1053,13 @@ body {
 
 
 
-
-  body {
-    background-image: url(/assets/images/background-bitmap.png);
-    background-size: 100%;
-  }
-  
-  .background1 {
+  /* .background1 {
     width               : 1440px;
-    /* height              : 100vh; */
     position            : relative;
     overflow            : hidden;
     margin              : 0 auto;
-  }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  } */
+  
   .background1 .bitmap {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
@@ -1239,111 +1139,21 @@ body {
     line-height         : 96.0px;
   }
   
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
-  @-webkit-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-moz-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-o-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
 
 
-  .background1 {
+
+
+  /* .background1 {
     width               : 100%;
     min-width           : 1600px;
-    /* height              : 100vh; */
     min-height          : 3903px;
     display             : block; 
     position            : relative;
     overflow            : auto;
     margin              : 0 auto;
-  }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  } */
+
+  
   .background1 .rectangle {
     background-color    : rgba(247, 249, 251, 1.0);
     top                 : 565px;
@@ -1352,8 +1162,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg);
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .rectangle1 {
@@ -1364,11 +1174,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg);
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background1 .navbar {
+  /* .background1 .navbar {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 130px;
@@ -1376,8 +1186,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   .background1 .navbar .bar {
@@ -1388,8 +1198,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   .background1 .navbar .menubutton {
@@ -1400,8 +1210,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1470px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   .background1 .navbar .menubutton .menuicon {
@@ -1412,11 +1222,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
     opacity             : 0.9;
-  }
+  } */
   .background1 .camperswhocode {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
@@ -1425,8 +1235,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 51px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -1442,8 +1252,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 18px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .landing .rectangle2 {
@@ -1454,8 +1264,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0%;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .landing .developersthatspea {
@@ -1466,8 +1276,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 137px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 30.0px;
@@ -1483,8 +1293,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 131px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 65.0px;
@@ -1500,8 +1310,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 131px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .landing .searchprojects {
@@ -1512,8 +1322,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 469px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -1529,8 +1339,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 79px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .latestclient .whatwebuild {
@@ -1541,8 +1351,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 564px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 50.0px;
@@ -1558,8 +1368,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 387px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1576,8 +1386,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 796px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1594,8 +1404,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .latestclient .button {
@@ -1606,8 +1416,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 652px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .latestclient .button .rectangle2 {
@@ -1622,8 +1432,8 @@ body {
     border-style        : solid;
     border-width        : 1px;
     border-color        : rgba(0, 0, 0, 1.0);
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1.latestclient .button .gallery {
@@ -1634,8 +1444,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 19px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 14.0px;
@@ -1651,8 +1461,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 89px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .latestclient .button .rectangle11 {
@@ -1663,8 +1473,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 115px;
-    -ms-transform       : rotate(-225deg); /* IE 9 */
-    -webkit-transform   : rotate(-225deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(-225deg); 
+    -webkit-transform   : rotate(-225deg);
     transform           : rotate(-225deg);
   }
   .background1 .weareexp {
@@ -1675,8 +1485,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : -1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .weareexp .rectangle2 {
@@ -1687,8 +1497,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .weareexp .group {
@@ -1699,8 +1509,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 157px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .weareexp .group .experienced {
@@ -1711,8 +1521,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville", Helvetica, Arial, serif;
     font-size           : 80.0px;
@@ -1728,8 +1538,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 254px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -1745,8 +1555,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville-Italic", Helvetica, Arial, serif;
     font-size           : 60.0px;
@@ -1762,8 +1572,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 714px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1780,8 +1590,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .weareexp .line2copy {
@@ -1792,8 +1602,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer {
@@ -1804,8 +1614,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 532px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .rectangle2 {
@@ -1817,8 +1627,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 4px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .youremailhere {
@@ -1829,8 +1639,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 25px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -1846,8 +1656,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 152px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -1863,8 +1673,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 485px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group3 .line4 {
@@ -1875,8 +1685,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group3 .path2 {
@@ -1887,8 +1697,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 17px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 {
@@ -1899,8 +1709,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 172px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .facebook {
@@ -1911,8 +1721,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .facebook .path {
@@ -1923,8 +1733,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .instagram {
@@ -1935,8 +1745,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 109px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .instagram .shape {
@@ -1947,8 +1757,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .instagram .shape1 {
@@ -1959,8 +1769,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 5px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .instagram .path {
@@ -1971,8 +1781,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 15px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .pinterest {
@@ -1983,8 +1793,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 51px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .pinterest .path {
@@ -1995,8 +1805,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .twitter {
@@ -2007,8 +1817,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 170px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .group4 .twitter .path {
@@ -2019,8 +1829,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .footer .a2512018camperswhoc {
@@ -2031,8 +1841,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 129px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.6;
     font-family         : "Baskerville", Helvetica, Arial, serif;
@@ -2049,8 +1859,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 102px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group2 .a0touchwebsitesdev {
@@ -2061,8 +1871,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 36.0px;
@@ -2078,8 +1888,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group2 .group .savetimeandhassle {
@@ -2090,8 +1900,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2107,8 +1917,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2124,8 +1934,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group2 .group1 .talentedandafforda {
@@ -2136,8 +1946,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2153,8 +1963,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2170,8 +1980,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 68px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 {
@@ -2182,8 +1992,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 168px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 {
@@ -2194,8 +2004,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .getproposals {
@@ -2206,8 +2016,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2223,8 +2033,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2240,8 +2050,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .fill1 {
@@ -2252,8 +2062,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .fill2 {
@@ -2264,8 +2074,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .fill3 {
@@ -2276,8 +2086,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .group7 {
@@ -2288,8 +2098,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .group7 .group71 {
@@ -2300,8 +2110,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a1 .group .fill8 {
@@ -2312,8 +2122,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 {
@@ -2324,8 +2134,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 405px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .setupameeting {
@@ -2336,8 +2146,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2353,8 +2163,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2370,8 +2180,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .fill1 {
@@ -2382,8 +2192,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .fill2 {
@@ -2394,8 +2204,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .fill3 {
@@ -2406,8 +2216,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .group7 {
@@ -2418,8 +2228,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .group7 .group71 {
@@ -2430,8 +2240,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a11 .group .fill8 {
@@ -2442,8 +2252,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 {
@@ -2454,8 +2264,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 803px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .getyourwebiste {
@@ -2466,8 +2276,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2483,8 +2293,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2500,8 +2310,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .fill1 {
@@ -2512,8 +2322,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .fill2 {
@@ -2524,8 +2334,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .fill3 {
@@ -2536,8 +2346,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .group7 {
@@ -2548,8 +2358,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .group7 .group71 {
@@ -2560,8 +2370,8 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .background1 .group5 .a12 .group .fill8 {
@@ -2572,8 +2382,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   .background1 .a1gl4picuesidie83u6tfqyg {
@@ -2584,8 +2394,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 862px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
     opacity             : 0.75;
   }
@@ -2597,37 +2407,16 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 724px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   
-  .background1 {
+  /* .background1 {
     width               : 80%;
-  }
+  } */
   /* .anima-animate-appear prefix for appear animations */
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
+
   @-webkit-keyframes anima-reveal {
     0%
      

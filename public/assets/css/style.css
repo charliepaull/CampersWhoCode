@@ -35,21 +35,14 @@ body {
     overflow            : hidden;
     margin              : 0 auto;
   }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .anima-full-width-a {
     width               : 100%;
   }
   .anima-full-height-a {
     height              : 100%;
   }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .background .bitmap1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
@@ -209,24 +202,50 @@ body {
         opacity: 1;
       }
   }
-   /* ================================ */
+  /* ================================ */
+  /* ================================ */
     /* ================================ */
       /* ================================ */
-        /* ================================ */
-          /* Employer Card CSS */
-        /* ================================ */
+        /* Employer Card CSS */
       /* ================================ */
     /* ================================ */
   /* ================================ */
+/* ================================ */
+
+
+.dropdown-content {
+  position: absolute;
+  background-color: #fbf9f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  left: -40px;
+}
+
+#dropdown-text {
+  color: rgba(83, 83, 85, 1.0);
+}
+
+
 
 
 #hidden {
     display: none;
 }
 
+.a2 {
+  width               : 100%;
+  min-width           : 1158px;
+  height              : 100vh;
+  min-height          : 979px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 0.9);
+}
 
 
-.a2 #white-card {
+.a2 {
     width               : 100%;
     min-width           : 1158px;
     height              : 100vh;
@@ -239,18 +258,7 @@ body {
   a {
     text-decoration     : none;
   }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
+  
   .a2 .salarysection {
     background-color    : rgba(255,255,255,0.0);
     top                 : 714px;
@@ -259,8 +267,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 189px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
@@ -272,8 +280,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .image .poltronagaia {
@@ -284,8 +292,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .image .mask {
@@ -297,8 +305,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .a5000  {
@@ -309,8 +317,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 598px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -326,8 +334,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 374px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -343,8 +351,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 148px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -360,8 +368,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 21px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -377,8 +385,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 628px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .advanced .boxmoredetails {
@@ -390,8 +398,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .advanced .advanced1 {
@@ -402,8 +410,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -420,8 +428,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 403px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .intermediate .boxmoredetails {
@@ -433,8 +441,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .intermediate .intermediate1 {
@@ -445,8 +453,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : -0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -463,8 +471,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 178px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .beginner .boxmoredetails {
@@ -476,8 +484,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .salarysection .beginner .beginner1 {
@@ -488,8 +496,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -506,8 +514,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 240px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .logotype {
@@ -518,8 +526,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 60px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -535,8 +543,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 19px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .image {
@@ -549,8 +557,8 @@ body {
     left                : 0px;
     border-radius       : 2px;
     overflow            : hidden;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
@@ -563,8 +571,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .image .poltronagaia {
@@ -575,8 +583,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .hereliesthedescri {
@@ -587,8 +595,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 36px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 14.0px;
@@ -604,8 +612,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 34px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -621,8 +629,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 112px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .moreButtonDiv .boxmoredetails {
@@ -634,8 +642,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .description .moreButtonDiv .contactdetails {
@@ -646,8 +654,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 26px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -656,12 +664,12 @@ body {
     letter-spacing      : 0.5px;
     line-height         : 18.0px;
   }
-  .a2 .description .morebutton .contactdetails .span1 {
+  /* .a2 .description .morebutton .contactdetails .span1 {
     
-  }
-  .a2 .description .morebutton .contactdetails .span2 {
+  } */
+  /* .a2 .description .morebutton .contactdetails .span2 {
     
-  }
+  } */
   .a2 .contactmodal {
     background-color    : rgba(255,255,255,0.0);
     top                 : 236px;
@@ -670,8 +678,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 248px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image {
@@ -684,8 +692,8 @@ body {
     left                : 4px;
     border-radius       : 2px;
     overflow            : hidden;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image .mask {
@@ -701,8 +709,8 @@ body {
     border-style        : solid;
     border-width        : 4px;
     border-color        : rgba(0, 0, 0, 1.0);
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .image .poltronagaia {
@@ -713,8 +721,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton {
@@ -725,8 +733,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 398px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton .boxmoredetails {
@@ -738,8 +746,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton .linkedin {
@@ -750,8 +758,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -768,8 +776,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 398px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton1 .boxmoredetails {
@@ -781,8 +789,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton1 .weblink {
@@ -793,8 +801,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -811,8 +819,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 93px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton2 .boxmoredetails {
@@ -824,8 +832,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton2 .phone {
@@ -836,8 +844,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 32px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -854,8 +862,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 93px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton3 .boxmoredetails {
@@ -867,8 +875,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .morebutton3 .email {
@@ -879,8 +887,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 17px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -897,8 +905,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 155px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -914,8 +922,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 267px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .closebutton .boxmoredetails {
@@ -927,8 +935,8 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 2px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
   .a2 .contactmodal .closebutton .close {
@@ -939,8 +947,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 25px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -957,8 +965,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -975,8 +983,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -993,8 +1001,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -1011,8 +1019,8 @@ body {
     width               : 201px;
     position            : absolute;
     margin              : 0;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 13.0px;
@@ -1024,84 +1032,8 @@ body {
 
 
   /* .anima-animate-appear prefix for appear animations */
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
-  @-webkit-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-moz-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-o-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
+
+
 
   /* ================================ */
     /* ================================ */
@@ -1115,35 +1047,14 @@ body {
 
 
 
-
-  body {
-    background-image: url(/assets/images/background-bitmap.png);
-    background-size: 100%;
-  }
-  
-  .background {
+  /* .background1 {
     width               : 1440px;
-    /* height              : 100vh; */
     position            : relative;
     overflow            : hidden;
     margin              : 0 auto;
-  }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .background .bitmap {
+  } */
+  
+  .background1 .bitmap {
     background-color    : rgba(255,255,255,0.0);
     top                 : 130px;
     height              : 100%;
@@ -1155,7 +1066,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar {
+  .background1 .navbar {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 130px;
@@ -1167,7 +1078,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .bar {
+  .background1 .navbar .bar {
     background-color    : rgba(255, 255, 255, 0.91);
     top                 : 0px;
     height              : 130px;
@@ -1179,7 +1090,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton {
+  .background1 .navbar .menubutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 44px;
     height              : 43px;
@@ -1191,7 +1102,7 @@ body {
     -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton .menuicon {
+  .background1 .navbar .menubutton .menuicon {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 43px;
@@ -1204,8 +1115,8 @@ body {
     transform           : rotate(0deg);
     opacity             : 0.9;
   }
-  .background .bootcampers {
-    /* background-color    : rgba(255,255,255,0.0); */
+  .background1 .bootcampers {
+    background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : auto;
     width               : 487px;
@@ -1222,110 +1133,22 @@ body {
     line-height         : 96.0px;
   }
   
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
-  @-webkit-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-moz-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @-o-keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  @keyframes anima-reveal {
-    0%
-     
-    {
-        opacity: 0;
-      }
-    
-      
-    100%
-     
-    {
-        opacity: 1;
-      }
-  }
-  
-  .background {
+
+
+
+
+  /* .background1 {
     width               : 100%;
     min-width           : 1600px;
-    /* height              : 100vh; */
     min-height          : 3903px;
+    display             : block; 
     position            : relative;
-    overflow            : hidden;
+    overflow            : auto;
     margin              : 0 auto;
-  }
-  a {
-    text-decoration     : none;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .anima-full-width-a {
-    width               : 100%;
-  }
-  .anima-full-height-a {
-    height              : 100%;
-  }
-  div {
-    -webkit-text-size-adjust: none;
-  }
-  .background .rectangle {
+  } */
+
+  
+  .background1 .rectangle {
     background-color    : rgba(247, 249, 251, 1.0);
     top                 : 565px;
     height              : 832px;
@@ -1333,11 +1156,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg);
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .rectangle1 {
+  .background1 .rectangle1 {
     background-color    : rgba(255, 255, 255, 1.0);
     top                 : 1397px;
     height              : 2510px;
@@ -1345,11 +1168,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg);
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .navbar {
+  /* .background1 .navbar {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 130px;
@@ -1357,11 +1180,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .bar {
+  .background1 .navbar .bar {
     background-color    : rgba(255, 255, 255, 0.91);
     top                 : 0px;
     height              : 130px;
@@ -1369,11 +1192,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton {
+  .background1 .navbar .menubutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 44px;
     height              : 43px;
@@ -1381,11 +1204,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1470px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .navbar .menubutton .menuicon {
+  .background1 .navbar .menubutton .menuicon {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 43px;
@@ -1393,12 +1216,12 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
     opacity             : 0.9;
-  }
-  .background .camperswhocode {
+  } */
+  .background1 .camperswhocode {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : auto;
@@ -1406,8 +1229,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 51px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 70.0px;
@@ -1415,7 +1238,7 @@ body {
     text-align          : left;
     line-height         : 96.0px;
   }
-  .background .landing {
+  .background1 .landing {
     background-color    : rgba(255,255,255,0.0);
     top                 : 145px;
     height              : 844px;
@@ -1423,11 +1246,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 18px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .landing .rectangle2 {
+  .background1 .landing .rectangle2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0%;
     height              : 100%;
@@ -1435,11 +1258,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0%;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .landing .developersthatspea {
+  .background1 .landing .developersthatspea {
     background-color    : rgba(255,255,255,0.0);
     top                 : 458px;
     height              : auto;
@@ -1447,8 +1270,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 137px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 30.0px;
@@ -1456,7 +1279,7 @@ body {
     text-align          : left;
     line-height         : 41.0px;
   }
-  .background .landing .camperswhocode1 {
+  .background1 .landing .camperswhocode1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 488px;
     height              : auto;
@@ -1464,8 +1287,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 131px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 65.0px;
@@ -1473,7 +1296,7 @@ body {
     text-align          : left;
     line-height         : 89.0px;
   }
-  .background .landing .getstartedbutton {
+  .background1 .landing .getstartedbutton {
     background-color    : rgba(255,255,255,0.0);
     top                 : 587px;
     height              : 63px;
@@ -1481,11 +1304,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 131px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .landing .searchprojects {
+  .background1 .landing .searchprojects {
     background-color    : rgba(255,255,255,0.0);
     top                 : 596px;
     height              : auto;
@@ -1493,8 +1316,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 469px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -1502,7 +1325,7 @@ body {
     text-align          : center;
     line-height         : 38.0px;
   }
-  .background .latestclient {
+  .background1 .latestclient {
     background-color    : rgba(255,255,255,0.0);
     top                 : 961px;
     height              : 378px;
@@ -1510,11 +1333,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 79px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .latestclient .whatwebuild {
+  .background1 .latestclient .whatwebuild {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1522,8 +1345,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 564px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 50.0px;
@@ -1531,7 +1354,7 @@ body {
     text-align          : center;
     line-height         : 68.0px;
   }
-  .background .latestclient .professionalwebsi {
+  .background1 .latestclient .professionalwebsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 105px;
     height              : auto;
@@ -1539,8 +1362,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 387px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1549,7 +1372,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .latestclient .restaurantwebsite {
+  .background1 .latestclient .restaurantwebsite {
     background-color    : rgba(255,255,255,0.0);
     top                 : 105px;
     height              : auto;
@@ -1557,8 +1380,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 796px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1567,7 +1390,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .latestclient .line2 {
+  .background1 .latestclient .line2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 376px;
     height              : 2px;
@@ -1575,11 +1398,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .latestclient .button {
+  .background1 .latestclient .button {
     background-color    : rgba(255,255,255,0.0);
     top                 : 222px;
     height              : 40px;
@@ -1587,11 +1410,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 652px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .rectangle2 {
+  .background1 .latestclient .button .rectangle2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 40px;
@@ -1603,11 +1426,11 @@ body {
     border-style        : solid;
     border-width        : 1px;
     border-color        : rgba(0, 0, 0, 1.0);
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .gallery {
+  .background1.latestclient .button .gallery {
     background-color    : rgba(255,255,255,0.0);
     top                 : 12px;
     height              : auto;
@@ -1615,8 +1438,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 19px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 14.0px;
@@ -1624,7 +1447,7 @@ body {
     text-align          : center;
     line-height         : 19.0px;
   }
-  .background .latestclient .button .line3 {
+  .background1 .latestclient .button .line3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 20px;
     height              : 2px;
@@ -1632,11 +1455,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 89px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .latestclient .button .rectangle11 {
+  .background1 .latestclient .button .rectangle11 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 19px;
     height              : 5px;
@@ -1644,11 +1467,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 115px;
-    -ms-transform       : rotate(-225deg); /* IE 9 */
-    -webkit-transform   : rotate(-225deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(-225deg); 
+    -webkit-transform   : rotate(-225deg);
     transform           : rotate(-225deg);
   }
-  .background .weareexp {
+  .background1 .weareexp {
     background-color    : rgba(255,255,255,0.0);
     top                 : 2699px;
     height              : 546px;
@@ -1656,11 +1479,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : -1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .weareexp .rectangle2 {
+  .background1 .weareexp .rectangle2 {
     background-color    : rgba(239, 241, 243, 1.0);
     top                 : 1px;
     height              : 544px;
@@ -1668,11 +1491,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .weareexp .group {
+  .background1 .weareexp .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 162px;
     height              : 188px;
@@ -1680,11 +1503,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 157px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .weareexp .group .experienced {
+  .background1 .weareexp .group .experienced {
     background-color    : rgba(255,255,255,0.0);
     top                 : 58px;
     height              : auto;
@@ -1692,8 +1515,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville", Helvetica, Arial, serif;
     font-size           : 80.0px;
@@ -1701,7 +1524,7 @@ body {
     text-align          : left;
     line-height         : 92.0px;
   }
-  .background .weareexp .group .developers {
+  .background1 .weareexp .group .developers {
     background-color    : rgba(255,255,255,0.0);
     top                 : 142px;
     height              : auto;
@@ -1709,8 +1532,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 254px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville", Helvetica, Arial, serif;
     font-size           : 40.0px;
@@ -1718,7 +1541,7 @@ body {
     text-align          : right;
     line-height         : 46.0px;
   }
-  .background .weareexp .group .weare {
+  .background1 .weareexp .group .weare {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1726,8 +1549,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "Baskerville-Italic", Helvetica, Arial, serif;
     font-size           : 60.0px;
@@ -1735,7 +1558,7 @@ body {
     text-align          : left;
     line-height         : 68.0px;
   }
-  .background .weareexp .loremipsumissimpl {
+  .background1 .weareexp .loremipsumissimpl {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -1743,8 +1566,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 714px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.8;
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
@@ -1753,7 +1576,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .weareexp .line2 {
+  .background1 .weareexp .line2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 2px;
@@ -1761,11 +1584,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .weareexp .line2copy {
+  .background1 .weareexp .line2copy {
     background-color    : rgba(255,255,255,0.0);
     top                 : 544px;
     height              : 2px;
@@ -1773,11 +1596,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer {
+  .background1 .footer {
     background-color    : rgba(255,255,255,0.0);
     top                 : 3447px;
     height              : 295px;
@@ -1785,11 +1608,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 532px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .rectangle2 {
+  .background1 .footer .rectangle2 {
     background-color    : rgba(0, 0, 0, 1.0);
     top                 : 70px;
     height              : 54px;
@@ -1798,11 +1621,11 @@ body {
     margin              : 0;
     left                : 0px;
     border-radius       : 4px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .youremailhere {
+  .background1 .footer .youremailhere {
     background-color    : rgba(255,255,255,0.0);
     top                 : 85px;
     height              : auto;
@@ -1810,8 +1633,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 25px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -1819,7 +1642,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .footer .subscribewithus {
+  .background1 .footer .subscribewithus {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -1827,8 +1650,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 152px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 28.0px;
@@ -1836,7 +1659,7 @@ body {
     text-align          : center;
     line-height         : 38.0px;
   }
-  .background .footer .group3 {
+  .background1 .footer .group3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 89px;
     height              : 16px;
@@ -1844,11 +1667,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 485px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group3 .line4 {
+  .background1 .footer .group3 .line4 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 6px;
     height              : 3px;
@@ -1856,11 +1679,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group3 .path2 {
+  .background1 .footer .group3 .path2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 16px;
@@ -1868,11 +1691,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 17px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 {
+  .background1 .footer .group4 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 169px;
     height              : 22px;
@@ -1880,11 +1703,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 172px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .facebook {
+  .background1 .footer .group4 .facebook {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1892,11 +1715,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .facebook .path {
+  .background1 .footer .group4 .facebook .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1904,11 +1727,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram {
+  .background1 .footer .group4 .instagram {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 21px;
@@ -1916,11 +1739,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 109px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .shape {
+  .background1 .footer .group4 .instagram .shape {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 21px;
@@ -1928,11 +1751,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .shape1 {
+  .background1 .footer .group4 .instagram .shape1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 5px;
     height              : 11px;
@@ -1940,11 +1763,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 5px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .instagram .path {
+  .background1 .footer .group4 .instagram .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 4px;
     height              : 2px;
@@ -1952,11 +1775,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 15px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .pinterest {
+  .background1 .footer .group4 .pinterest {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1964,11 +1787,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 51px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .pinterest .path {
+  .background1 .footer .group4 .pinterest .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 22px;
@@ -1976,11 +1799,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .twitter {
+  .background1 .footer .group4 .twitter {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1px;
     height              : 19px;
@@ -1988,11 +1811,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 170px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .group4 .twitter .path {
+  .background1 .footer .group4 .twitter .path {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 19px;
@@ -2000,11 +1823,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .footer .a2512018camperswhoc {
+  .background1 .footer .a2512018camperswhoc {
     background-color    : rgba(255,255,255,0.0);
     top                 : 278px;
     height              : auto;
@@ -2012,8 +1835,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 129px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     opacity             : 0.6;
     font-family         : "Baskerville", Helvetica, Arial, serif;
@@ -2022,7 +1845,7 @@ body {
     text-align          : center;
     line-height         : 16.0px;
   }
-  .background .group2 {
+  .background1 .group2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1557px;
     height              : 554px;
@@ -2030,11 +1853,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 102px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group2 .a0touchwebsitesdev {
+  .background1 .group2 .a0touchwebsitesdev {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2042,8 +1865,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 36.0px;
@@ -2051,7 +1874,7 @@ body {
     text-align          : left;
     line-height         : 51.0px;
   }
-  .background .group2 .group {
+  .background1 .group2 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 157px;
     height              : 124px;
@@ -2059,11 +1882,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group2 .group .savetimeandhassle {
+  .background1 .group2 .group .savetimeandhassle {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2071,8 +1894,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2080,7 +1903,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .group2 .group .loremipsumdolorsi {
+  .background1 .group2 .group .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 38px;
     height              : auto;
@@ -2088,8 +1911,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2097,7 +1920,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .group2 .group1 {
+  .background1 .group2 .group1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 308px;
     height              : 124px;
@@ -2105,11 +1928,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group2 .group1 .talentedandafforda {
+  .background1 .group2 .group1 .talentedandafforda {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : auto;
@@ -2117,8 +1940,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2126,7 +1949,7 @@ body {
     text-align          : left;
     line-height         : 25.0px;
   }
-  .background .group2 .group1 .loremipsumdolorsi {
+  .background1 .group2 .group1 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 38px;
     height              : auto;
@@ -2134,8 +1957,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 1px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2143,7 +1966,7 @@ body {
     text-align          : left;
     line-height         : 28.0px;
   }
-  .background .group2 .line {
+  .background1 .group2 .line {
     background-color    : rgba(255,255,255,0.0);
     top                 : 551px;
     height              : 3px;
@@ -2151,11 +1974,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 68px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 {
+  .background1 .group5 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 2258px;
     height              : 202px;
@@ -2163,11 +1986,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 168px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 {
+  .background1 .group5 .a1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2175,11 +1998,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .getproposals {
+  .background1 .group5 .a1 .getproposals {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2187,8 +2010,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2196,7 +2019,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a1 .loremipsumdolorsi {
+  .background1 .group5 .a1 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2204,8 +2027,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2213,7 +2036,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a1 .group {
+  .background1 .group5 .a1 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2221,11 +2044,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill1 {
+  .background1 .group5 .a1 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2233,11 +2056,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill2 {
+  .background1 .group5 .a1 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2245,11 +2068,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill3 {
+  .background1 .group5 .a1 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2257,11 +2080,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .group7 {
+  .background1 .group5 .a1 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2269,11 +2092,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .group7 .group71 {
+  .background1 .group5 .a1 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2281,11 +2104,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a1 .group .fill8 {
+  .background1 .group5 .a1 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2293,11 +2116,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 {
+  .background1 .group5 .a11 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2305,11 +2128,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 405px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .setupameeting {
+  .background1 .group5 .a11 .setupameeting {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2317,8 +2140,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2326,7 +2149,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a11 .loremipsumdolorsi {
+  .background1 .group5 .a11 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2334,8 +2157,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2343,7 +2166,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a11 .group {
+  .background1 .group5 .a11 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2351,11 +2174,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill1 {
+  .background1 .group5 .a11 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2363,11 +2186,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill2 {
+  .background1 .group5 .a11 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2375,11 +2198,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill3 {
+  .background1 .group5 .a11 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2387,11 +2210,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .group7 {
+  .background1 .group5 .a11 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2399,11 +2222,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .group7 .group71 {
+  .background1 .group5 .a11 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2411,11 +2234,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a11 .group .fill8 {
+  .background1 .group5 .a11 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2423,11 +2246,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 {
+  .background1 .group5 .a12 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 202px;
@@ -2435,11 +2258,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 803px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .getyourwebiste {
+  .background1 .group5 .a12 .getyourwebiste {
     background-color    : rgba(255,255,255,0.0);
     top                 : 78px;
     height              : auto;
@@ -2447,8 +2270,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size           : 18.0px;
@@ -2456,7 +2279,7 @@ body {
     text-align          : center;
     line-height         : 25.0px;
   }
-  .background .group5 .a12 .loremipsumdolorsi {
+  .background1 .group5 .a12 .loremipsumdolorsi {
     background-color    : rgba(255,255,255,0.0);
     top                 : 116px;
     height              : auto;
@@ -2464,8 +2287,8 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
     font-family         : "AvenirNext-Regular", Helvetica, Arial, serif;
     font-size           : 16.0px;
@@ -2473,7 +2296,7 @@ body {
     text-align          : center;
     line-height         : 28.0px;
   }
-  .background .group5 .a12 .group {
+  .background1 .group5 .a12 .group {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 60px;
@@ -2481,11 +2304,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 158px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill1 {
+  .background1 .group5 .a12 .group .fill1 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 10px;
     height              : 50px;
@@ -2493,11 +2316,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 13px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill2 {
+  .background1 .group5 .a12 .group .fill2 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 6px;
@@ -2505,11 +2328,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 28px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill3 {
+  .background1 .group5 .a12 .group .fill3 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2517,11 +2340,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 45px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .group7 {
+  .background1 .group5 .a12 .group .group7 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 27px;
     height              : 3px;
@@ -2529,11 +2352,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .group7 .group71 {
+  .background1 .group5 .a12 .group .group7 .group71 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 0px;
     height              : 3px;
@@ -2541,11 +2364,11 @@ body {
     position            : relative;
     margin              : 0;
     left                : 0px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);
   }
-  .background .group5 .a12 .group .fill8 {
+  .background1 .group5 .a12 .group .fill8 {
     background-color    : rgba(255,255,255,0.0);
     top                 : 8px;
     height              : 6px;
@@ -2553,11 +2376,11 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 8px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
-  .background .a1gl4picuesidie83u6tfqyg {
+  .background1 .a1gl4picuesidie83u6tfqyg {
     background-color    : rgba(255,255,255,0.0);
     top                 : 355px;
     height              : 459px;
@@ -2565,12 +2388,12 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 862px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
     opacity             : 0.75;
   }
-  .background .a0ngxgbnndx6iiwp8q {
+  .background1 .a0ngxgbnndx6iiwp8q {
     background-color    : rgba(255,255,255,0.0);
     top                 : 1632px;
     height              : 350px;
@@ -2578,37 +2401,16 @@ body {
     position            : absolute;
     margin              : 0;
     left                : 724px;
-    -ms-transform       : rotate(0deg); /* IE 9 */
-    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    -ms-transform       : rotate(0deg); 
+    -webkit-transform   : rotate(0deg); 
     transform           : rotate(0deg);
   }
   
-  .background {
+  /* .background1 {
     width               : 80%;
-  }
+  } */
   /* .anima-animate-appear prefix for appear animations */
-  .anima-animate-appear {
-    opacity             : 0;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  }
-  .anima-animate-disappear {
-    opacity             : 1;
-    display             : block;
-    -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-    -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-    animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  }
-  .anima-animate-nodelay {
-    -webkit-animation-delay: 0;
-    -moz-animation-delay: 0;
-    -o-animation-delay  : 0;
-    animation-delay     : 0;
-  }
+
   @-webkit-keyframes anima-reveal {
     0%
      
@@ -2685,9 +2487,7 @@ body {
     color: rgba(135, 198, 190, 1.0);
     text-align: left;
     line-height: 96.0px;
-    text-align: center;
-    padding-top: 15px;
-  }
+    }
 
   #form-info {
     padding-top: 147px;
@@ -2710,8 +2510,7 @@ body {
     overflow: hidden;
     margin: 0px;
     background-color: rgba(255, 255, 255, 0.9);
-    margin: 57px 100px 49px 100px;
-  }
+  } */
 
   #header-container {
     width: 1600px;

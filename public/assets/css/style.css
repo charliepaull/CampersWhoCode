@@ -21,11 +21,6 @@
     margin-top: 190px;
 }
 
-
-#employer {
-    color: rgba(135, 198, 190, 1.0);
-}
-
 body {
     background-image: url(/assets/images/background-bitmap.png);
     background-size: 100%;
@@ -35,7 +30,7 @@ body {
   
   .background {
     width               : 1440px;
-    /* height              : 100vh; */
+    height              : 100vh;
     position            : relative;
     overflow            : hidden;
     margin              : 0 auto;
@@ -250,8 +245,7 @@ body {
 }
 
 
-
-.a2 #white-card {
+.a2 {
     width               : 100%;
     min-width           : 1158px;
     height              : 100vh;
@@ -2474,6 +2468,10 @@ body {
       } 
   }
 
+  #employer {
+    color: rgba(135, 198, 190, 1.0);
+}
+
   #emp-container {
     width: 1600px;
   }
@@ -2482,25 +2480,29 @@ body {
     width: 1600px;
     height: auto;
     position: absolute;
-    margin: 0;
-    left: 51px;
+    margin: 0 auto;
     transform: rotate(0deg);
     font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
     font-size: 70.0px;
     color: rgba(135, 198, 190, 1.0);
     text-align: left;
     line-height: 96.0px;
-    padding-top: 15px;
-  }
+    }
 
   #form-info {
     padding-top: 147px;
     margin: 0 auto;
-
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 2.375rem 8.75rem;
+    font-size: 40.0px;
+    line-height: 1.5;
+    color: #495057;
   }
 
-  /* #white-card {
-    width: 100%;
+  #white-card {
+    /* width: 100%; */
     min-width: 1000px;
     height: 100vh;
     min-height: 979px;
@@ -2514,4 +2516,22 @@ body {
     width: 1600px;
     background-color: rgba(255, 255, 255, 0.91);
     height: 130px;
+  }
+
+  .formy-form {
+    font-family: "AvenirNext-Bold", Helvetica, Arial, serif;
+    font-size: 70.0px;
+    color: rgba(135, 198, 190, 1.0);
+    text-align: left;
+    line-height: 96.0px;
+    padding-left: 75px;
+  }
+
+  #form-div {
+    height: 100px;
+    padding-left: 51px;
+  }
+
+  label {
+    font-size: 30.0px;
   }

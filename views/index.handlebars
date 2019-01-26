@@ -10,6 +10,13 @@
                     </div>
                     <div class="menubutton">
                         <img src="assets/images/background-menuicon@2x.png" class="menuicon" >
+                        <div class="dropdown-content" id="hidden">
+                            <a id="dropdown-text" href="http://localhost:6969/">Home</a>
+                            <br>
+                            <a id="dropdown-text" href="http://localhost:6969/seeJobs">See Job Postings</a>
+                            <br>
+                            <a id="dropdown-text" href="http://localhost:6969/postJobs">Post A Job</a>
+                        </div>
                     </div>
                     <div class="camperswhocode">
                         Campers Who Code
@@ -182,3 +189,16 @@
             </div>
         
     </div>
+
+<script>
+    function pageGo() {
+        $(".menubutton").on("click", function() {
+            if ($(".dropdown-content").attr("id") === "hidden") {
+                    $(".dropdown-content").attr("id", "show");
+            } else {
+                $(".dropdown-content").attr("id", "hidden");
+            }
+        })
+    }
+    pageGo();
+</script>

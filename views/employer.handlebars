@@ -3,6 +3,17 @@
 <div>
   <div id="emp-container">
   <div id="header-container">
+    <div class="menubutton" id="dropdown">
+      {{!-- REDIRECTS LIKELY TO NOT WORK WITH HEROKU. ADD ROUTING CAPABILITIES TO FIX THIS --}}
+      <img src="/assets/images/background-menuicon@2x.png" class="menuicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+      <div class="dropdown-content" id="hidden">
+          <a id="dropdown-text" href="http://localhost:6969/">Home</a>
+          <br>
+          <a id="dropdown-text" href="http://localhost:6969/seeJobs">See Job Postings</a>
+          <br>
+          <a id="dropdown-text" href="http://localhost:6969/postJobs">Post A Job</a>
+      </div>
+  </div>
     <h1 id="employers-submit">Employer Job Submission</h1>
     </div>
   </div>
@@ -149,6 +160,18 @@
                 }, false);
             });
         }, false); */
+
+
+        function pageGo() {
+        $(".menubutton").on("click", function() {
+            if ($(".dropdown-content").attr("id") === "hidden") {
+                    $(".dropdown-content").attr("id", "show");
+            } else {
+                $(".dropdown-content").attr("id", "hidden");
+            }
+        })
+        }
+        pageGo();
 
         $(".formy-form").on("submit", function(){
         // prevent form from submitting

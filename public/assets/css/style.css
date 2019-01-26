@@ -221,6 +221,7 @@ body {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   left: -64px;
+  text-align: left;
 }
 
 #dropdown-text {
@@ -2469,6 +2470,50 @@ body {
       } 
   }
 
+
+
+
+   /* ================================ */
+    /* ================================ */
+      /* ================================ */
+        /* ================================ */
+          /* Employers.handlebars */
+        /* ================================ */
+      /* ================================ */
+    /* ================================ */
+  /* ================================ */
+
+
+
+
+#emp-container #header-container .menubutton {
+  background-color: rgba(255,255,255,0.0);
+  top: 44px;
+  height: 43px;
+  width: 70px;
+  position: absolute;
+  margin: 0;
+  right: 51px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+#emp-container #header-container .menubutton .menuicon {
+  background-color: rgba(255,255,255,0.0);
+  top: 0px;
+  height: 43px;
+  width: 70px;
+  position: relative;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  opacity: 0.9;
+}
+
+
   .background3 {
     width               : 1650px;
     position            : relative;
@@ -2489,6 +2534,8 @@ body {
   #employers-submit {
     width: 100%;
     height: auto;
+    top: 20px;
+    left: -313px;
     position: absolute;
     vertical-align: middle;
     margin: 0 auto;
@@ -2497,7 +2544,7 @@ body {
     font-size: 70.0px;
     color: rgba(135, 198, 190, 1.0);
     line-height: 96.0px;
-    }
+}
 
   #form-info {
     padding-top: 147px;

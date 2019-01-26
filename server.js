@@ -6,6 +6,8 @@ var PORT = process.env.PORT || 6969;
 
 var app = express();
 
+var password = process.env.password;
+
 
 // Add static files to 'public'
 //==========================

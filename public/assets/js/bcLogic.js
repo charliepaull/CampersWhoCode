@@ -28,3 +28,12 @@ $(function() {
         })
       });
   });
+
+  function jobRedirect() {
+        $.ajax({
+            url: "/clickpostjob",
+            type: "POST",
+        }).then(function(){
+            window.location.href = "/seeJobs";
+        });
+    };

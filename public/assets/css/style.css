@@ -19,6 +19,7 @@
     background-color: white;
     opacity: 0.96;
     margin-top: 190px;
+    margin-bottom: 60px;
 }
 
 body {
@@ -216,10 +217,10 @@ body {
 .dropdown-content {
   position: absolute;
   background-color: #fbf9f8;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
-  left: -40px;
+  left: -64px;
 }
 
 #dropdown-text {
@@ -522,7 +523,7 @@ body {
     background-color    : rgba(255,255,255,0.0);
     top                 : 50px;
     height              : auto;
-    width               : 226px;
+    width               : 1000px;
     position            : absolute;
     margin              : 0;
     left                : 60px;
@@ -548,10 +549,10 @@ body {
     transform           : rotate(0deg);
   }
   .a2 .description .image {
-    background-color    : rgba(255,255,255,0.0);
+    background-color    : #f0f0f0;
     top                 : 0px;
     height              : 597px;
-    width               : 361px;
+    width               : 465px;
     position            : absolute;
     margin              : 0;
     left                : 0px;
@@ -589,9 +590,9 @@ body {
   }
   .a2 .description .hereliesthedescri {
     background-color    : rgba(255,255,255,0.0);
-    top                 : 217px;
+    top                 : 165px;
     height              : auto;
-    width               : 298px;
+    width               : 400px;
     position            : absolute;
     margin              : 0;
     left                : 36px;
@@ -606,9 +607,9 @@ body {
   }
   .a2 .description .jobtitle {
     background-color    : rgba(255,255,255,0.0);
-    top                 : 74px;
+    top                 : 25px;
     height              : auto;
-    width               : 300px;
+    width               : 411px;
     position            : absolute;
     margin              : 0;
     left                : 34px;
@@ -628,7 +629,7 @@ body {
     width               : 137px;
     position            : absolute;
     margin              : 0;
-    left                : 112px;
+    left                : 166px;
     -ms-transform       : rotate(0deg); 
     -webkit-transform   : rotate(0deg);
     transform           : rotate(0deg);

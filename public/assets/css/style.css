@@ -1047,12 +1047,12 @@ body {
 
 
 
-  /* .background1 {
-    width               : 1440px;
+  .background1 {
+    width               : 1600px;
     position            : relative;
     overflow            : hidden;
     margin              : 0 auto;
-  } */
+  }
   
   .background1 .bitmap {
     background-color    : rgba(255,255,255,0.0);
@@ -2466,6 +2466,12 @@ body {
     {
         opacity: 1;
       } 
+  }
+
+  .background3 {
+    width               : 1650px;
+    position            : relative;
+    margin              : 0 auto;
   }
 
   #employer {

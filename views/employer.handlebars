@@ -1,134 +1,135 @@
 {{!-- need to format and make sure all divs and tags are accounted for and correct. --}}
 {{!-- hyperlink stuff at bottom --}}
-
-<div id="emp-container">
-<div id="header-container">
-  <h1 id="employers-submit">Employer Job Submission</h1>
-</div>
-
-<div id="white-card">
-  <div id="form-div">
-    <h2 id="form-info">Please fill out the job form below for fellow Bootcampers to see!</h2>
+<div>
+  <div id="emp-container">
+  <div id="header-container">
+    <h1 id="employers-submit">Employer Job Submission</h1>
   </div>
-    <form class="formy-form" id="submit" novalidate>
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationCustom01">Job Title</label>
-          <input type="text" class="form-control" id="job-title" placeholder="Job Title" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationCustom02">Employer</label>
-          <input type="text" class="form-control" id="employer-index" placeholder="Employer" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-      </div>
-      
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationCustom03">Job Type</label>
-          <input type="text" class="form-control" id="job-type" placeholder="Job Type" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-      </div>
-  
 
-      <div class="form-group">
-        <div class="col-md-6">
-          <label for="validationCustom04">Description</label>
-          <textarea class="form-control" id="description-index" placeholder="Give a detailed description of the job." rows="20"></textarea>
-          <div class="valid-feedback">
-            ✅
+  <div id="white-card">
+    <div id="form-div">
+      <h2 id="form-info">Please fill out the job form below for fellow Bootcampers to see!</h2>
+    </div>
+      <form class="formy-form" id="submit" novalidate>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label for="validationCustom01">Job Title</label>
+            <input type="text" class="form-control" id="job-title" placeholder="Job Title" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
           </div>
         </div>
-      </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label for="validationCustom02">Employer</label>
+            <input type="text" class="form-control" id="employer-index" placeholder="Employer" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
+          </div>
+        </div>
         
-      <div class="form-row">
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom05">Beginner Bootcamper Price ($)</label>
-          <input type="number" step="0.50" min="0" class="form-control" id="beg-price" placeholder="ex: $300.00" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom06">Intermediate Bootcamper Price ($)</label>
-          <input type="number" step="0.50" min="0" class="form-control" id="int-price" placeholder="ex: $400.00" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom07">Advanced Bootcamper Price ($)</label>
-          <input type="number" step="0.50" min="0" class="form-control" id="adv-price" placeholder="ex: $500.00" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom08">Employer Email</label>
-          <input type="text" class="form-control" id="emp-email" placeholder="Employer Email" required>
-          <div class="valid-feedback">
-            ✅
-          </div>
-        </div>
-      </div>
-
-      <div class="form-row">
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom09">Employer Phone #</label>
-            <input type="number" class="form-control" id="emp-phone" placeholder="Employer Phone #" required>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label for="validationCustom03">Job Type</label>
+            <input type="text" class="form-control" id="job-type" placeholder="Job Type" required>
             <div class="valid-feedback">
               ✅
             </div>
           </div>
-      </div>
+        </div>
+    
 
-      <div class="form-row">
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom10">Employer LinkedIn</label>
-            <input type="text" class="form-control" id="emp-linkedin" placeholder="if n/a, use linkedin.com" required>
+        <div class="form-group">
+          <div class="col-md-6">
+            <label for="validationCustom04">Description</label>
+            <textarea class="form-control" id="description-index" placeholder="Give a detailed description of the job." rows="20"></textarea>
             <div class="valid-feedback">
               ✅
             </div>
-          </div>
-      </div>
-
-      <div class="form-row">
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom11">Employer Site</label>
-            <input type="text" class="form-control" id="emp-site" placeholder="if n/a, use google.com" required>
-            <div class="valid-feedback">
-              ✅
-            </div>
-          </div>
-      </div>
-        
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-          <label class="form-check-label" for="invalidCheck">
-            Agree to terms and conditions
-          </label>
-          <div class="invalid-feedback">
-            You must agree before submitting.
           </div>
         </div>
-      </div>
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </form>
-</div>
+          
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom05">Beginner Bootcamper Price ($)</label>
+            <input type="number" step="0.50" min="0" class="form-control" id="beg-price" placeholder="ex: $300.00" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom06">Intermediate Bootcamper Price ($)</label>
+            <input type="number" step="0.50" min="0" class="form-control" id="int-price" placeholder="ex: $400.00" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom07">Advanced Bootcamper Price ($)</label>
+            <input type="number" step="0.50" min="0" class="form-control" id="adv-price" placeholder="ex: $500.00" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-3 mb-3">
+            <label for="validationCustom08">Employer Email</label>
+            <input type="text" class="form-control" id="emp-email" placeholder="Employer Email" required>
+            <div class="valid-feedback">
+              ✅
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+              <label for="validationCustom09">Employer Phone #</label>
+              <input type="number" class="form-control" id="emp-phone" placeholder="Employer Phone #" required>
+              <div class="valid-feedback">
+                ✅
+              </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+              <label for="validationCustom10">Employer LinkedIn</label>
+              <input type="text" class="form-control" id="emp-linkedin" placeholder="if n/a, use linkedin.com" required>
+              <div class="valid-feedback">
+                ✅
+              </div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+              <label for="validationCustom11">Employer Site</label>
+              <input type="text" class="form-control" id="emp-site" placeholder="if n/a, use google.com" required>
+              <div class="valid-feedback">
+                ✅
+              </div>
+            </div>
+        </div>
+          
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
+  </div>
+  </div>
 </div>
 <script>
   /* (function () {

@@ -62,3 +62,6 @@ typings/
 
 # ds store file
 .DS_Store
+
+# mysql password
+coders.env 

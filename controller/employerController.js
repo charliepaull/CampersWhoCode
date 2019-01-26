@@ -23,6 +23,13 @@ router.post("/clickbuttonsearch", function(req,res) {
     console.log(b);
 });
 
+// Redirect to "see job" card scroll
+router.post("/clickpostjob", function(req,res){
+    res.redirect("/seeJobs");
+    console.log("see the job!");
+});
+
+
 // Shows "jobs" Table As JSON
 //==============================
 router.get("/json", function(req, res) {
